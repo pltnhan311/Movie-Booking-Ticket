@@ -1,0 +1,152 @@
+<!-- Main content -->
+<div class="h-screen flex-grow-1 overflow-y-lg-auto">
+  <!-- Header -->
+  <header class="bg-surface-primary border-bottom pt-6">
+    <div class="container-fluid">
+      <div class="mb-4">
+        <div class="row align-items-center">
+          <div class="col-sm-6 col-12 mb-4 mb-sm-0">
+            <!-- Title -->
+            <h1 class="h1 mb-1 mt-1 ls-tight">QUẢN LÝ RẠP</h1>
+          </div>
+          <!-- Actions -->
+          <div class="col-sm-6 col-12 text-sm-end">
+            <div class="mx-n1">
+              <a
+                href="/admin/theaterManager/add"
+                class="btn d-inline-flex btn-sm btn-primary mx-1"
+              >
+                <span class="pe-2">
+                  <i class="bi bi-plus"></i>
+                </span>
+                <span>Thêm rạp mới</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Nav -->
+      </div>
+    </div>
+  </header>
+  <div class="container my-4 film-container">
+    <h2 class="text-primary">Danh sách rạp phim</h2>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Hình ảnh</th>
+          <th>Tên rạp</th>
+          <th>Khu vực</th>
+          <th style="width: 300px;">Địa chỉ</th>
+          <th>Số điện thoại</th>
+          <th>Thao tác</th>
+        </tr>
+      </thead>
+      <tbody id="table">
+        {{#each theaters}}
+        <tr>
+          <th>
+            <img src="{{this.img}}" alt="" style="width: 100px; height: auto" />
+          </th>
+          <th>{{this.nameCinema}}</th>
+          <th>{{this.city}}</th>
+          <th>{{this.addressCinema}}</th>
+          <th>{{this.phoneCinema}}</th>
+          <th>
+            <a href="/admin/theaterManager/edit/{{id}}"
+              ><i class="bi bi-pencil btn btn-sm btn-success"></i
+            ></a>
+            <a
+              data-id="{{id}}"
+              data-name="{{name}}"
+              data-bs-toggle="modal"
+              data-bs-target="#deleteModal"
+              class="delete-btn"
+              ><i class="bi bi-trash btn btn-sm btn-danger"></i
+            ></a>
+          </th>
+        </tr>
+        {{/each}}
+      </tbody>
+
+      <tbody>
+        <!-- Delete confirmation modal -->
+        <div
+          class="modal fade"
+          id="deleteModal"
+          tabindex="-1"
+          aria-labelledby="deleteModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="deleteModalLabel">
+                  Delete Confirmation
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                Bạn có chắc muốn xoá rạp chiếu phim này
+                <strong id="deleteItemName"></strong>?
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Huỷ
+                </button>
+                <a id="confirmDeleteBtn" class="btn btn-danger">Xoá</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </tbody>
+    </table>
+  </div>
+  <div class='card-footer border-0 py-5'>
+      <nav aria-label='Page navigation example'>
+        <ul class='pagination'>
+          <li class='page-item'><a
+              class='page-link disabled'
+              href='#'
+            >Previous</a></li>
+          {{#each pageArray}}
+
+          {{!-- <li class='page-item'><a
+              class='page-link bg-info text-white'
+              href='/admin/bookingManager/1'
+            >1</a></li> --}}
+            <li class='page-item'><a class='page-link' href='/admin/theaterManager/{{this}}'>{{this}}</a></li>
+          {{/each}}
+          <li class='page-item'><a class='page-link' href='#'>Next</a></li>
+        </ul>
+      </nav>
+    </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const deleteButtons = document.querySelectorAll('.delete-btn');
+    const deleteModal = new bootstrap.Modal(document.getElementById('deleteModal'));
+    const deleteItemName = document.getElementById('deleteItemName');
+    const confirmDeleteBtn = document.getElementById('confirmDeleteBtn');
+
+    deleteButtons.forEach((btn) => {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        const id = btn.getAttribute('data-id');
+        const name = btn.getAttribute('data-name');
+        deleteItemName.textContent = name;
+        confirmDeleteBtn.href = `/admin/theaterManager/delete/${id}`;
+        deleteModal.show();
+      });
+    });
+  });
+</script>

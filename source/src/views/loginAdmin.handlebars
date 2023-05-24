@@ -1,0 +1,25 @@
+<link rel='stylesheet' href='/css/loginAdmin.css' />
+
+<div class="container">
+    <div class="wrapper-form">
+      <div class="title">Chào Admin</div>
+      <form action='/admin/login' method="post" class="signup-form" autocomplete="off">
+        <div class="field">
+          <input autofocus type="text" id="admin" name="admin" placeholder="Nhập adminname..">
+          <label for="admin">AdminName</label>
+        </div>
+        <div class="field">
+          <input type="password" id="passwordAdmin" name="passwordAdmin" placeholder="Nhập mật khẩu..">
+          <label for="passwordAdmin">Mật khẩu</label>
+        </div>
+        {{#if error}}
+          <div class="alert alert-danger alert-dismissible fade show">
+          {{error}}
+          </div>
+				{{/if}}
+        <div class="field">
+          <input type="submit" value="Đăng Nhập">
+        </div>
+      </form>
+    </div>
+</div>

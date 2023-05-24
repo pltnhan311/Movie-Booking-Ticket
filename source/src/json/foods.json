@@ -1,0 +1,49 @@
+[{
+  "_id": {
+    "$oid": "643e8ac182ea368cb136b323"
+  },
+  "name": "Couple Combo (1 Bắp 2 Nước)",
+  "price": 80000,
+  "img": "/img/coupleCombo.png",
+  "status": "Đang bán"
+},{
+  "_id": {
+    "$oid": "643e8ac182ea368cb136b324"
+  },
+  "name": "Family Combo (1 Snack 2 Bắp 4 Nước)",
+  "price": 150000,
+  "img": "/img/familyCombo.png",
+  "status": "Đang bán"
+},{
+  "_id": {
+    "$oid": "643e8ac182ea368cb136b325"
+  },
+  "name": "Mini Combo (1 Bắp 1 Nước)",
+  "price": 50000,
+  "img": "/img/miniCombo.png",
+  "status": "Đang bán"
+},{
+  "_id": {
+    "$oid": "643e8ac182ea368cb136b326"
+  },
+  "name": "Pepsi, 7Up, Miranda",
+  "price": 20000,
+  "img": "/img/drinks.png",
+  "status": "Đang bán"
+},{
+  "_id": {
+    "$oid": "643e8ac182ea368cb136b327"
+  },
+  "name": "Bắp Truyền Thống",
+  "price": 30000,
+  "img": "/img/bapTT.png",
+  "status": "Đang bán"
+},{
+  "_id": {
+    "$oid": "643e8ac182ea368cb136b328"
+  },
+  "name": "Bắp Phô Mai",
+  "price": 40000,
+  "img": "/img/bapPM.png",
+  "status": "Đang bán"
+}]

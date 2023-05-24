@@ -1,0 +1,85 @@
+<div class='h-screen flex-grow-1 overflow-y-lg-auto'>
+  <div class='container'>
+    <div class='form-group text-small'>
+      <small><a href='/admin/theaterManager'>Quay lại</a></small>
+    </div>
+    <h4 class='text-success'>Cập nhật Rạp</h4>
+    <div class='row justify-content-center'>
+      <div class='col-xl-8 col-lg-8 col-md-8 border mt-3 pt-3 rounded'>
+        <form
+          action='/admin/theaterManager/edit/{{theater._id}}'
+          method='post'
+          novalidate
+        >
+          <div class='form-group'>
+            <label for='name'>Tên Rạp</label>
+            <input
+              value='{{theater.nameCinema}}'
+              type='text'
+              id='nameCinema'
+              name='nameCinema'
+              class='form-control'
+              placeholder='Nhập tên Rap'
+            />
+          </div>
+          <div class='form-group'>
+            <label for='city'>Thành phố:</label>
+            <input
+              value='{{theater.city}}'
+              type='text'
+              id='city'
+              name='city'
+              class='form-control'
+              placeholder='Nhập thành phố Rạp'
+            />
+          </div>
+          <div class='form-group'>
+            <label for='address'>Địa chỉ:</label>
+            <input
+              value='{{theater.addressCinema}}'
+              type='text'
+              id='address'
+              name='address'
+              class='form-control'
+              placeholder='Nhập địa chỉ Rap'
+            />
+          </div>
+          <div class='form-group'>
+            <label for='phone'>Số điện thoại:</label>
+            <input
+              value='{{theater.phoneCinema}}'
+              type='text'
+              id='phone'
+              name='phone'
+              class='form-control'
+              placeholder='Nhập trạng thái Rap'
+            />
+          </div>
+          <div class='form-group'>
+            <label for='img'>Hình ảnh</label>
+            <input
+              value='{{theater.img}}'
+              type='text'
+              id='img'
+              name='img'
+              class='form-control'
+              placeholder='Nhập link ảnh rạp'
+            />
+          </div>
+          <div class='form-group'>
+            {{#if error}}
+              <br />
+              <div class='alert alert-danger alert-dismissible fade show'>
+                {{error}}
+              </div>
+              <br />
+            {{/if}}
+          </div>
+          <div class='form-group'>
+            <button type='submit' class='btn btn-success mr-2'>Cập nhật</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

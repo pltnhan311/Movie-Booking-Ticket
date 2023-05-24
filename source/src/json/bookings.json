@@ -1,0 +1,581 @@
+[{
+  "_id": {
+    "$oid": "644164444ba9ec39fcf561da"
+  },
+  "user": {
+    "$oid": "6440f6669a293fde13e7b03e"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f0"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb3"
+  },
+  "showtime": {
+    "$oid": "644114e49225681348119040"
+  },
+  "sId": {
+    "$oid": "6441159792256813481192bc"
+  },
+  "seats": [
+    "[\"I6\"]"
+  ],
+  "food": [
+    {
+      "$oid": "643e8ac182ea368cb136b327"
+    }
+  ],
+  "status": "Đã nhận vé",
+  "totalPrice": "110.000 đ",
+  "payment": {
+    "$oid": "616586e0c04b7e66d9e765ec"
+  },
+  "createdAt": "2023-04-20",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644164714ba9ec39fcf56215"
+  },
+  "user": {
+    "$oid": "6440f6669a293fde13e7b03e"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f2"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb7"
+  },
+  "showtime": {
+    "$oid": "64411b40922568134811b7d7"
+  },
+  "sId": {
+    "$oid": "64411bd2922568134811bebf"
+  },
+  "seats": [
+    "[\"D5\",\"E5\",\"F5\",\"G5\",\"H5\"]"
+  ],
+  "food": [
+    {
+      "$oid": "643e8ac182ea368cb136b324"
+    }
+  ],
+  "status": "Đã nhận vé",
+  "totalPrice": "600.000 đ",
+  "payment": {
+    "$oid": "616586e0c04b7e66d9e765ec"
+  },
+  "createdAt": "2023-04-20",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644164f54ba9ec39fcf5624a"
+  },
+  "user": {
+    "$oid": "6440f6669a293fde13e7b03e"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361fd"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb0"
+  },
+  "showtime": {
+    "$oid": "64413196efd81688958a1c31"
+  },
+  "sId": {
+    "$oid": "644131ceefd81688958a234c"
+  },
+  "seats": [
+    "[\"D6\",\"E6\",\"F6\",\"G6\",\"H6\"]"
+  ],
+  "food": [
+    {
+      "$oid": "643e8ac182ea368cb136b323"
+    }
+  ],
+  "status": "Đã nhận vé",
+  "totalPrice": "640.000 đ",
+  "payment": {
+    "$oid": "616586e0c04b7e66d9e765ec"
+  },
+  "createdAt": "2023-04-20",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644165384ba9ec39fcf56289"
+  },
+  "user": {
+    "$oid": "6440f62d9a293fde13e7b03a"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361ef"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb9"
+  },
+  "showtime": {
+    "$oid": "64411ddb922568134811d3b4"
+  },
+  "sId": {
+    "$oid": "64411e45922568134811da5f"
+  },
+  "seats": [
+    "[\"A1\",\"A2\",\"A3\",\"A4\",\"A5\"]"
+  ],
+  "food": [
+    {
+      "$oid": "643e8ac182ea368cb136b324"
+    }
+  ],
+  "status": "Đã nhận vé",
+  "totalPrice": "500.000 đ",
+  "payment": {
+    "$oid": "616586e0c04b7e66d9e765ed"
+  },
+  "createdAt": "2023-04-20",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644165674ba9ec39fcf562c0"
+  },
+  "user": {
+    "$oid": "6440f62d9a293fde13e7b03a"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f1"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb6"
+  },
+  "showtime": {
+    "$oid": "64411924922568134811ab06"
+  },
+  "sId": {
+    "$oid": "64411a32922568134811b0f5"
+  },
+  "seats": [
+    "[\"D5\",\"D6\",\"E7\",\"F5\",\"F6\"]"
+  ],
+  "food": [
+    {
+      "$oid": "643e8ac182ea368cb136b322"
+    }
+  ],
+  "status": "Đã nhận vé",
+  "totalPrice": "350.000 đ",
+  "payment": {
+    "$oid": "616586e0c04b7e66d9e765ed"
+  },
+  "createdAt": "2023-04-20",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6441658f4ba9ec39fcf562f0"
+  },
+  "user": {
+    "$oid": "6440f62d9a293fde13e7b03a"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f2"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb2"
+  },
+  "showtime": {
+    "$oid": "644113fe9225681348118b99"
+  },
+  "sId": {
+    "$oid": "644114879225681348118e58"
+  },
+  "seats": [
+    "[\"E6\",\"F5\",\"F6\",\"F7\",\"G6\"]"
+  ],
+  "food": [
+    {
+      "$oid": "643e8ac182ea368cb136b324"
+    }
+  ],
+  "status": "Đã nhận vé",
+  "totalPrice": "1.050.000 đ",
+  "payment": {
+    "$oid": "616586e0c04b7e66d9e765ed"
+  },
+  "createdAt": "2023-04-20",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644165bb4ba9ec39fcf56321"
+  },
+  "user": {
+    "$oid": "6440f62d9a293fde13e7b03a"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361fc"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb3"
+  },
+  "showtime": {
+    "$oid": "6441154292256813481190e4"
+  },
+  "sId": {
+    "$oid": "644115ea92256813481194cc"
+  },
+  "seats": [
+    "[\"D6\",\"E5\",\"E7\",\"F6\",\"G6\"]"
+  ],
+  "food": [
+    {
+      "$oid": "643e8ac182ea368cb136b324"
+    }
+  ],
+  "status": "Đã nhận vé",
+  "totalPrice": "1.100.000 đ",
+  "payment": {
+    "$oid": "616586e0c04b7e66d9e765ec"
+  },
+  "createdAt": "2023-04-20",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644165ee4ba9ec39fcf56360"
+  },
+  "user": {
+    "$oid": "6440f6939a293fde13e7b042"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f0"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb6"
+  },
+  "showtime": {
+    "$oid": "6441191a922568134811aa6c"
+  },
+  "sId": {
+    "$oid": "64411a12922568134811af02"
+  },
+  "seats": [
+    "[\"E5\"]"
+  ],
+  "food": [
+    {
+      "$oid": "643e8ac182ea368cb136b322"
+    }
+  ],
+  "status": "Đã nhận vé",
+  "totalPrice": "70.000 đ",
+  "payment": {
+    "$oid": "616586e0c04b7e66d9e765ec"
+  },
+  "createdAt": "2023-04-20",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644166044ba9ec39fcf5638e"
+  },
+  "user": {
+    "$oid": "6440f6939a293fde13e7b042"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f1"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb2"
+  },
+  "showtime": {
+    "$oid": "644113ee9225681348118b5f"
+  },
+  "sId": {
+    "$oid": "644114609225681348118d79"
+  },
+  "seats": [
+    "[\"I6\",\"J1\",\"J10\"]"
+  ],
+  "food": [
+    {
+      "$oid": "643e8ac182ea368cb136b323"
+    }
+  ],
+  "status": "Đã nhận vé",
+  "totalPrice": "290.000 đ",
+  "payment": {
+    "$oid": "616586e0c04b7e66d9e765ec"
+  },
+  "createdAt": "2023-04-20",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644166234ba9ec39fcf563c9"
+  },
+  "user": {
+    "$oid": "6440f6939a293fde13e7b042"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f2"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb0"
+  },
+  "showtime": {
+    "$oid": "6441318defd81688958a1b37"
+  },
+  "sId": {
+    "$oid": "644131bcefd81688958a213a"
+  },
+  "seats": [
+    "[\"A1\",\"A10\",\"F6\",\"J1\",\"J10\"]"
+  ],
+  "food": [
+    {
+      "$oid": "643e8ac182ea368cb136b322"
+    }
+  ],
+  "status": "Đã nhận vé",
+  "totalPrice": "350.000 đ",
+  "payment": {
+    "$oid": "616586e0c04b7e66d9e765ec"
+  },
+  "createdAt": "2023-04-20",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6441663a4ba9ec39fcf563f7"
+  },
+  "user": {
+    "$oid": "6440f6939a293fde13e7b042"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f0"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb3"
+  },
+  "showtime": {
+    "$oid": "644114e49225681348119040"
+  },
+  "sId": {
+    "$oid": "6441159792256813481192bc"
+  },
+  "seats": [
+    "[\"A1\",\"A10\",\"D2\",\"D8\"]"
+  ],
+  "food": [
+    {
+      "$oid": "643e8ac182ea368cb136b322"
+    }
+  ],
+  "status": "Chờ nhận vé",
+  "totalPrice": "320.000 đ",
+  "payment": {
+    "$oid": "616586e0c04b7e66d9e765ec"
+  },
+  "createdAt": "2023-04-20",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644166664ba9ec39fcf56436"
+  },
+  "user": {
+    "$oid": "6440f6b29a293fde13e7b046"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361ef"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb3"
+  },
+  "showtime": {
+    "$oid": "644114d89225681348118fee"
+  },
+  "sId": {
+    "$oid": "644115809225681348119236"
+  },
+  "seats": [
+    "[\"A1\",\"A10\",\"B10\",\"C10\",\"D10\"]"
+  ],
+  "food": [
+    {
+      "$oid": "643e8ac182ea368cb136b326"
+    }
+  ],
+  "status": "Đã nhận vé",
+  "totalPrice": "400.000 đ",
+  "payment": {
+    "$oid": "616586e0c04b7e66d9e765ec"
+  },
+  "createdAt": "2023-04-20",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6441667c4ba9ec39fcf56464"
+  },
+  "user": {
+    "$oid": "6440f6b29a293fde13e7b046"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f1"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb2"
+  },
+  "showtime": {
+    "$oid": "644113ee9225681348118b5f"
+  },
+  "sId": {
+    "$oid": "644114609225681348118d79"
+  },
+  "seats": [
+    "[\"C5\",\"F3\",\"F4\",\"G7\"]"
+  ],
+  "food": [
+    {
+      "$oid": "643e8ac182ea368cb136b328"
+    }
+  ],
+  "status": "Đã nhận vé",
+  "totalPrice": "320.000 đ",
+  "payment": {
+    "$oid": "616586e0c04b7e66d9e765ec"
+  },
+  "createdAt": "2023-04-20",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644166b04ba9ec39fcf564bb"
+  },
+  "user": {
+    "$oid": "6440f6b29a293fde13e7b046"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f2"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb6"
+  },
+  "showtime": {
+    "$oid": "64411956922568134811abef"
+  },
+  "sId": {
+    "$oid": "64411a4b922568134811b19e"
+  },
+  "seats": [
+    "[\"B5\",\"J9\"]"
+  ],
+  "food": [
+    {
+      "$oid": "643e8ac182ea368cb136b322"
+    }
+  ],
+  "status": "Chờ nhận vé",
+  "totalPrice": "120.000 đ",
+  "payment": {
+    "$oid": "616586e0c04b7e66d9e765ec"
+  },
+  "createdAt": "2023-04-20",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644166e94ba9ec39fcf564f0"
+  },
+  "user": {
+    "$oid": "6440f6b29a293fde13e7b046"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f3"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb0"
+  },
+  "showtime": {
+    "$oid": "644111229225681348118651"
+  },
+  "sId": {
+    "$oid": "644111ab9225681348118721"
+  },
+  "seats": [
+    "[\"A1\",\"J9\",\"J10\"]"
+  ],
+  "food": [
+    {
+      "$oid": "643e8ac182ea368cb136b325"
+    }
+  ],
+  "status": "Đã nhận vé",
+  "totalPrice": "260.000 đ",
+  "payment": {
+    "$oid": "616586e0c04b7e66d9e765ec"
+  },
+  "createdAt": "2023-04-20",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644166e94ba9ec39fcf56dea"
+  },
+  "user": {
+    "$oid": "6440f6b29a293fde13e7b046"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f3"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb0"
+  },
+  "showtime": {
+    "$oid": "644111229225681348118651"
+  },
+  "sId": {
+    "$oid": "644111ab9225681348118721"
+  },
+  "seats": [
+    "[\"A1\",\"J9\",\"J10\"]"
+  ],
+  "food": [
+    {
+      "$oid": "643e8ac182ea368cb136b325"
+    }
+  ],
+  "status": "Chờ nhận vé",
+  "totalPrice": "260.000 đ",
+  "payment": {
+    "$oid": "616586e0c04b7e66d9e765ec"
+  },
+  "createdAt": "2023-05-01",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64436e7e6675584753d87051"
+  },
+  "user": {
+    "$oid": "6440f6939a293fde13e7b042"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f1"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb0"
+  },
+  "showtime": {
+    "$oid": "6441109d7d4a86003b29c549"
+  },
+  "sId": {
+    "$oid": "644111619225681348118691"
+  },
+  "seats": [
+    "[\"C6\",\"C7\"]"
+  ],
+  "food": [
+    {
+      "$oid": "643e8ac182ea368cb136b324"
+    }
+  ],
+  "status": "Chờ nhận vé",
+  "totalPrice": "740.000 đ",
+  "payment": {
+    "$oid": "616586e0c04b7e66d9e765ed"
+  },
+  "createdAt": "2023-05-20",
+  "__v": 0
+}
+]

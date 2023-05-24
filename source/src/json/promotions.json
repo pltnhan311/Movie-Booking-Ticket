@@ -1,0 +1,64 @@
+[{
+  "_id": {
+    "$oid": "643ad1cf9a2c460436972461"
+  },
+  "namePromotion": "XÀI VISA NHẬN NGAY BẮP LỚN",
+  "contentPromotion": "Khách hàng mua 02 vé xem phim thanh toán bằng Visa Chạm sẽ được tặng 01 phần bắp ngọt. Chỉ áp dụng cho giao dịch mua 02 vé xem phim. Không giới hạn số lượng túi bắp tặng cho mỗi khách hàng. Áp dụng phụ thu 5,000 nếu muốn đổi vị bắp caramel hoặc pho mai",
+  "timePromotion": "Từ 23/09/2022 – 31/03/2023 vào các ngày thứ 6, thứ 7 và Chủ Nhật hàng tuần",
+  "theaterApply": "Tất cả các rạp MBTMAX trên toàn quốc",
+  "imgPromotion": "https://www.bhdstar.vn/wp-content/uploads/2018/03/Visa-x-BHD-WEB.jpg"
+},{
+  "_id": {
+    "$oid": "643ad1cf9a2c460436972462"
+  },
+  "namePromotion": "ƯU ĐÃI ĐẶC BIỆT CHO U22",
+  "contentPromotion": "Giá vé 2D đặc biệt dành cho khách hàng là thành viên và từ 22 tuổi trở xuống. Tùy theo mỗi cụm rạp sẽ có chính sách giá vé U22 khác nhau. (Vui lòng tham khảo bảng giá vé tại các rạp)",
+  "timePromotion": "1/4/2023 – 31/12/2023",
+  "theaterApply": "Tất cả các rạp MBTMAX trên toàn quốc",
+  "imgPromotion": "https://www.bhdstar.vn/wp-content/uploads/2018/03/U22-web-1.png"
+},{
+  "_id": {
+    "$oid": "643ad1cf9a2c460436972463"
+  },
+  "namePromotion": "HAPPY MONDAY – THỨ 2 VUI VẺ",
+  "contentPromotion": "Giá vé 2D đặc biệt cho khách hàng xem phim vào ngày thứ 2 hàng tuần. Đối tượng áp dụng: Vé người lớn.",
+  "timePromotion": "1/4/2023 – 31/12/2023",
+  "theaterApply": "Tất cả các rạp MBTMAX trên toàn quốc",
+  "imgPromotion": "https://www.bhdstar.vn/wp-content/uploads/2018/03/Web-HappyDay.png"
+},{
+  "_id": {
+    "$oid": "643ad1cf9a2c460436972464"
+  },
+  "namePromotion": "GIÁ VÉ ƯU ĐÃI CHO SUẤT KHUYA",
+  "contentPromotion": "Giá vé 2D đặc biệt cho khách hàng xem phim vào các suất chiếu sau 22:00",
+  "timePromotion": "1/4/2016 – 27/4/2023",
+  "theaterApply": "Tất cả các rạp MBTMAX trên toàn quốc",
+  "imgPromotion": "https://www.bhdstar.vn/wp-content/uploads/2018/03/Suat-Khuya-Web.jpg"
+},{
+  "_id": {
+    "$oid": "643ad1cf9a2c460436972465"
+  },
+  "namePromotion": "SALE KHỦNG LÊN ĐẾN 50%",
+  "contentPromotion": "Giá vé 2D đặc biệt cho khách hàng xem phim vào các suất chiếu sau 22:00",
+  "timePromotion": "1/4/2016 – 27/4/2023",
+  "theaterApply": "Tất cả các rạp MBTMAX trên toàn quốc",
+  "imgPromotion": "https://static.mservice.io/blogscontents/momo-upload-api-200529162940-637263665800395015.jpg"
+},{
+  "_id": {
+    "$oid": "643ad1cf9a2c460436972466"
+  },
+  "namePromotion": "XEM PHIM THẢ GA GIÁ CHỈ 5K",
+  "contentPromotion": "Giá vé 2D đặc biệt cho khách hàng xem phim vào các suất chiếu sau 22:00",
+  "timePromotion": "1/4/2016 – 27/4/2023",
+  "theaterApply": "Tất cả các rạp MBTMAXBHD Star trên toàn quốc",
+  "imgPromotion": "https://cdn-www.vinid.net/2019/11/KV-chung.-BannerWeb_IDVOUCHER_deal5k_Lottecinema-1024x576.jpg"
+},{
+  "_id": {
+    "$oid": "643ad1cf9a2c460436972467"
+  },
+  "namePromotion": "GIỜ VÀNG ĐÃ ĐIỂM",
+  "contentPromotion": "Giá vé 2D đặc biệt cho khách hàng xem phim vào các suất chiếu sau 22:00",
+  "timePromotion": "1/4/2016 – 27/4/2023",
+  "theaterApply": "Tất cả các rạp MBTMAX trên toàn quốc",
+  "imgPromotion": "https://cafephim.vn/wp-content/uploads/2023/03/BIA-WEB-1024x576.jpg"
+}]

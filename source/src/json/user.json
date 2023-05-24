@@ -1,0 +1,69 @@
+[{
+  "_id": {
+    "$oid": "6440f62d9a293fde13e7b03a"
+  },
+  "name": "Võ Thiên Minh",
+  "email": "minh@gmail.com",
+  "phone": "0123456788",
+  "gender": "Nam",
+  "birthDate": "2001-01-26",
+  "password": "$2a$10$WagAJPToY99sOaq/OiHTkufe5X.b.6f1MvFf/IeUAJKHMIJMMddgK",
+  "createdAt": {
+    "$date": "2023-04-20T08:22:05.123Z"
+  },
+  "updatedAt": {
+    "$date": "2023-04-22T13:12:58.120Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6440f6669a293fde13e7b03e"
+  },
+  "name": "Trịnh Văn Dũng",
+  "email": "dung@gmail.com",
+  "phone": "0123456895",
+  "gender": "Nam",
+  "birthDate": "2002-10-20",
+  "password": "$2a$10$S5b5diZESbfjcvzSsjoD1u..ha1.xBnXN8wnKFbbPm2nMJ2pFo5qG",
+  "createdAt": {
+    "$date": "2023-04-20T08:23:02.742Z"
+  },
+  "updatedAt": {
+    "$date": "2023-04-20T08:23:02.742Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6440f6939a293fde13e7b042"
+  },
+  "name": "Phạm Lê Trọng Nhân",
+  "email": "nhan@gmail.com",
+  "phone": "0123578796",
+  "gender": "Nam",
+  "birthDate": "2002-08-20",
+  "password": "$2a$10$hi20ffoAUEa7EQs9jkmHRuHGl86goGajPBYH/FC0HBPkFJ/Kn1Mqi",
+  "createdAt": {
+    "$date": "2023-04-20T08:23:47.195Z"
+  },
+  "updatedAt": {
+    "$date": "2023-04-20T08:23:47.195Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6440f6b29a293fde13e7b046"
+  },
+  "name": "Trần Trung Hiếu",
+  "email": "hieu@gmail.com",
+  "phone": "0123457869",
+  "gender": "Nam",
+  "birthDate": "2002-04-20",
+  "password": "$2a$10$ZWwqvoBzfuj/IzrZBN2z.uRGyntmv.AniCUFM1i1lqOGDIGKRYfEK",
+  "createdAt": {
+    "$date": "2023-04-20T08:24:18.239Z"
+  },
+  "updatedAt": {
+    "$date": "2023-04-20T08:24:18.239Z"
+  },
+  "__v": 0
+}]

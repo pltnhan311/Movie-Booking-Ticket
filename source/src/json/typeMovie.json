@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "643badee4cab4c126f64fea3"
+  },
+  "name": "2D",
+  "price": 60000
+},{
+  "_id": {
+    "$oid": "643badee4cab4c126f64fea4"
+  },
+  "name": "3D",
+  "price": 70000
+},{
+  "_id": {
+    "$oid": "643badee4cab4c126f64fea5"
+  },
+  "name": "4D",
+  "price": 80000
+},{
+  "_id": {
+    "$oid": "643badee4cab4c126f64fea6"
+  },
+  "name": "4DX",
+  "price": 90000
+},{
+  "_id": {
+    "$oid": "643badee4cab4c126f64fea7"
+  },
+  "name": "5D",
+  "price": 120000
+}]

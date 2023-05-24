@@ -1,0 +1,111 @@
+[{
+  "_id": {
+    "$oid": "643971e696e5d7162526eeb0"
+  },
+  "nameCinema": "MBT MAX LONG KHÁNH",
+  "city": "Long Khánh",
+  "addressCinema": "430 Hồ Thị Hương, Phường Xuân An, Thành Phố Long Khánh, Tỉnh Đồng Nai",
+  "phoneCinema": "02512860696",
+  "img": "/img/rapLongKhanh.png",
+  "imgInfor": "/img/ticketPriceLK.png",
+  "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.5319382544453!2d107.25691865023418!3d10.923132592183887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174ff30e743084b%3A0x13c410bab508a020!2zNDMwIEjhu5MgVGjhu4sgSMawxqFuZywgWHXDom4gQW4sIExvbmcgS2jDoW5oLCDEkOG7k25nIE5haSwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1681195440403!5m2!1svi!2s"
+},{
+  "_id": {
+    "$oid": "643971e696e5d7162526eeb1"
+  },
+  "nameCinema": "MBT MAX THE GARDEN",
+  "city": "Hà Nội",
+  "addressCinema": "Tầng 4, TTTM Garden Shopping Center, Phố Mễ Trì, P.Mỹ Đình 1, Quận Nam Từ Liêm, Hà Nội",
+  "phoneCinema": "024 3206 8678",
+  "img": "/img/rapStarGarden.png",
+  "imgInfor": "/img/ticketPriceTG.png",
+  "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.4375997805787!2d105.77548145037198!3d21.015169585937052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313454aa0fed56c7%3A0x1ba275bf03d4c1a9!2zVHJ1bmcgdMOibSB0aMawxqFuZyBt4bqhaSBUaGUgR2FyZGVu!5e0!3m2!1svi!2s!4v1681195667042!5m2!1svi!2s"
+},{
+  "_id": {
+    "$oid": "643971e696e5d7162526eeb2"
+  },
+  "nameCinema": "MBT MAX DISCOVERY",
+  "city": "Hà Nội",
+  "addressCinema": "Tầng 8, TTTM Discovery, 302 Cầu Giấy, P.Dịch Vọng, Quận Cầu Giấy, Hà Nội",
+  "phoneCinema": "024 3206 0202",
+  "img": "/img/rapStarDiscovery.png",
+  "imgInfor": "/img/ticketPriceD.png",
+  "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.9321224020146!2d105.79238535037227!3d21.035401785925973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab99fab13dd7%3A0xfe88cba6201c15ab!2sDiscovery%20Shopping%20Center!5e0!3m2!1svi!2s!4v1681195734920!5m2!1svi!2s"
+},{
+  "_id": {
+    "$oid": "643971e696e5d7162526eeb3"
+  },
+  "nameCinema": "MBT MAX HUẾ",
+  "city": "Huế",
+  "addressCinema": "Tầng 5, Vincom Plaza Huế, 50A Hùng Vương tổ 10, Phú Nhuận, Thành phố Huế, Thừa Thiên Huế",
+  "phoneCinema": "023 4625 0238",
+  "img": "/img/rapStarHue.png",
+  "imgInfor": "/img/ticketPriceH.png",
+  "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3826.2454217839245!2d107.5923300502994!3d16.46310608858289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3141a13e8ec40d09%3A0xc669dbfc2743e474!2sVincom%20Plaza%20Hu%E1%BA%BF!5e0!3m2!1svi!2s!4v1681195785161!5m2!1svi!2s"
+},{
+  "_id": {
+    "$oid": "643971e696e5d7162526eeb4"
+  },
+  "nameCinema": "MBT MAX PHẠM NGỌC THẠCH",
+  "city": "Hà Nội",
+  "addressCinema": "Tầng 8, Vincom Center Phạm Ngọc Thạch, 02 Phạm Ngọc Thạch, P.Trung Tự, Quận Đống Đa, Hà Nội",
+  "phoneCinema": "024 3637 3355",
+  "img": "/img/rapStarPNT.png",
+  "imgInfor": "/img/ticketPricePNT.png",
+  "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.659022276738!2d105.82976195037183!3d21.00630108594195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ad95816c146f%3A0x2490ed9e600b1009!2zVmluY29tIENlbnRlciBQaOG6oW0gTmfhu41jIFRo4bqhY2g!5e0!3m2!1svi!2s!4v1681195824208!5m2!1svi!2s"
+},{
+  "_id": {
+    "$oid": "643971e696e5d7162526eeb5"
+  },
+  "nameCinema": "MBT MAX LÊ VĂN VIỆT",
+  "city": "Hồ Chí Minh",
+  "addressCinema": "Tầng 4, Vincom Plaza Lê Văn Việt, 50 Lê Văn Việt, P.Hiệp Phú, Quận 9, TP.HCM",
+  "phoneCinema": "028 3736 7070",
+  "img": "/img/rapStarLVK.png",
+  "imgInfor": "/img/ticketPriceLVV.png",
+  "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.5562195564535!2d106.77667575023347!3d10.845233792236927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175270c3672eead%3A0x48a232403125539e!2zVmluY29tIFBsYXphIEzDqiBWxINuIFZp4buHdA!5e0!3m2!1svi!2s!4v1681195854175!5m2!1svi!2s"
+},{
+  "_id": {
+    "$oid": "643971e696e5d7162526eeb6"
+  },
+  "nameCinema": "MBT MAX THẢO ĐIỀN",
+  "city": "Hồ Chí Minh",
+  "addressCinema": "Tầng 5, Vincom Mega Mall Thảo Điền, 159 Xa Lộ Hà Nội, P.Thảo Điền, Quận 2, TPHCM",
+  "phoneCinema": "028 3744 6969",
+  "img": "/img/rapThaoDien.png",
+  "imgInfor": "/img/ticketPriceTD.png",
+  "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.120024519791!2d106.73879355023301!3d10.802118392266301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317526115902d29d%3A0xb17fa2961150c212!2sVincom%20Mega%20Mall!5e0!3m2!1svi!2s!4v1681195900481!5m2!1svi!2s"
+},{
+  "_id": {
+    "$oid": "643971e696e5d7162526eeb7"
+  },
+  "nameCinema": "MBT MAX QUANG TRUNG",
+  "city": "Hồ Chí Minh",
+  "addressCinema": "Tầng B2, Vincom Plaza Quang Trung, 190 Quang Trung, P.10, Quận Gò Vấp, Tp.HCM",
+  "phoneCinema": "028 3989 2468",
+  "img": "/img/rapQuangTrung.png",
+  "imgInfor": "/img/ticketPriceQT.png",
+  "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.765884135124!2d106.6705153502333!3d10.829220092247827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529a7f96d7295%3A0xaeded59535d18f5d!2sVincom%20Plaza%20Quang%20Trung!5e0!3m2!1svi!2s!4v1681195946384!5m2!1svi!2s"
+},{
+  "_id": {
+    "$oid": "643971e696e5d7162526eeb8"
+  },
+  "nameCinema": "MBT MAX PHẠM HÙNG",
+  "city": "Hồ Chí Minh",
+  "addressCinema": "Tầng 4, TTTM Satra Phạm Hùng, C6/27 Phạm Hùng, Bình Chánh, TPHCM",
+  "phoneCinema": "028 3758 9142",
+  "img": "/img/rapPhamHung.png",
+  "imgInfor": "/img/ticketPricePH.png",
+  "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3920.009929695427!2d106.67248785023243!3d10.733717192312998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752e4d1dc0f02d%3A0x4bd54393f0882aa4!2zVFRUTSBTYXRyYSDEkMaw4budbmcgUGjhuqFtIEjDuW5n!5e0!3m2!1svi!2s!4v1681195981814!5m2!1svi!2s"
+},{
+  "_id": {
+    "$oid": "643971e696e5d7162526eeb9"
+  },
+  "nameCinema": "MBT MAX 3/2",
+  "city": "Hồ Chí Minh",
+  "addressCinema": "Tầng 5, Vincom Plaza 3/2, 3C Đường 3 Tháng 2, P.11, Quận 10, TPHCM",
+  "phoneCinema": "028 6264 5820",
+  "img": "/img/rap3_2.png",
+  "imgInfor": "/img/ticketPrice32.png",
+  "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.4590254855625!2d106.67851325023287!3d10.776112192284051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f26616e6f71%3A0x4c57aa0ec39f3d13!2sVincom%20Plaza%203%2F2!5e0!3m2!1svi!2s!4v1681196017393!5m2!1svi!2s"
+}]

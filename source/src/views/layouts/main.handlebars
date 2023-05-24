@@ -1,0 +1,201 @@
+<html lang='en'>
+  <head>
+    <title>MBT Max</title>
+    <meta charset='utf-8' />
+    <meta
+      name='viewport'
+      content='width=device-width, initial-scale=1, shrink-to-fit=no'
+    />
+    <link
+      href='https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap'
+      rel='stylesheet'
+    />
+    <link
+      rel='stylesheet'
+      href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'
+    />
+    <link
+      href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css'
+      rel='stylesheet'
+      integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC'
+      crossorigin='anonymous'
+    />
+    <script
+      src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js'
+      integrity='sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM'
+      crossorigin='anonymous'
+    ></script>
+    <script src='https://code.jquery.com/jquery-3.6.3.min.js'></script>
+    <link
+      rel='stylesheet'
+      href='https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css'
+    />
+    <link
+      href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css'
+      rel='stylesheet'
+    />
+    <script
+      src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js'
+    ></script>
+    <script
+      src='https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js'
+    ></script>
+    <script
+      src='https://kit.fontawesome.com/972cc7adb8.js'
+      crossorigin='anonymous'
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <link rel="icon" href="/img/main-logo-red.png" type="image/x-icon">
+    <link rel='stylesheet' href='/css/root.css' />
+    <link rel='stylesheet' href='/css/header.css' />
+    <link rel='stylesheet' href='/css/footer.css' />
+
+  </head>
+  <body>
+    {{! Header }}
+    <header id='header'>
+      <nav class='navbar navbar-expand-lg bg-theme'>
+        <div class='container-lg'>
+          <a
+            href='/'
+            class='navbar-brand text-main logo flex-lg-shrink-0 d-flex align-items-center gap-1'
+          >
+            <img src='../img/mbt_logo.png' alt='Logo' />
+            {{! <h1 class="h3 m-0">Flame</h1> }}
+          </a>
+          <button
+            class='navbar-toggler bg-submain'
+            type='button'
+            data-bs-toggle='collapse'
+            data-bs-target='#navigation-section'
+            aria-controls='navigation-section'
+            aria-expanded='false'
+            aria-label='Toggle navigation'
+          >
+            <span class='navbar-toggler-icon'></span>
+          </button>
+          <div
+            class='collapse navbar-collapse flex-lg-grow-1 justify-content-around nav-bg'
+            id='navigation-section'
+          >
+            <ul class='navbar-nav gap-1'>
+              <li class='nav-item'>
+                <a class='nav-text button' aria-current='page' href='/'>TRANG CHỦ</a>
+              </li>
+              <li class='nav-item'>
+                <a class='nav-text button' href='/showtime'>LỊCH CHIẾU</a>
+              </li>
+              <li class='nav-item'>
+                <a class='nav-text button' href='/cinema'>HỆ THỐNG RẠP</a>
+              </li>
+              <li class='nav-item'>
+                <a class='nav-text button' href='/promotion'>KHUYẾN MÃI</a>
+              </li>
+            </ul>
+            <ul class='navbar-nav align-items-center gap-2 col-lg-3 d-none d-lg-flex'>
+              {{#if user}}
+                <p class="fs-5 fw-normal fst-italic text-warning">Welcome</p>
+                <nav class="dropdown">
+                  <img
+                    src="../img/ava_both.png"
+                    class='user-pic'
+                    alt='user-pic'
+                    onclick='toggleMenu()'
+                  />
+
+                  <div class='sub-menu-wrap' id='subMenu'>
+                    <div class='sub-menu'>
+                      <div class='user-info'>
+                        <img src="../img/ava_both.png"/>
+                        <h3><span style="color: #ffc107;">{{user.name}}</span></h3>
+                      </div>
+                      <hr />
+
+                      <a href='/userprofile' class='sub-menu-link'>
+                        <img src='../img/profile.png' alt='' />
+                        <p>Tài khoản</p>
+                        <span>></span>
+                      </a>
+                      <a href='/bookinghistory' class='sub-menu-link'>
+                        <img src='../img/help.png' alt='' />
+                        <p>Lịch sử đặt vé</p>
+                        <span>></span>
+                      </a>
+                      <a href='#' class='sub-menu-link'>
+                        <img src='../img/setting.png' alt='' />
+                        <p>Cài đặt</p>
+                        <span>></span>
+                      </a>
+                      <a href='/logout' class='sub-menu-link'>
+                        <img src='../img/logout.png' alt='' />
+                        <p>Đăng xuất</p>
+                        <span>></span>
+                      </a>
+                    </div>
+                  </div>
+                </nav>
+              {{else}}
+                <li class='wrapper'>
+                  <a class='nav-text button1' style="margin-left: 20px" href='/login'>User</a>
+                </li>
+                <h5 style="height: 19px;">|</h5>
+                <li class='wrapper'>
+                  <a class='nav-text button1' href='/admin/login'>Admin</a>
+                </li>
+              {{/if}}
+            </ul>
+          </div>
+
+        </div>
+      </nav>
+    </header>
+
+    <div class='.container'>
+      {{{body}}}
+    </div>
+    {{! End Header }}
+
+    {{! Footer }}
+    <footer>
+      <div class='footer'>
+        <div class='row mg-0-25 footer-content'>
+          <div class='col aboutUs'>
+            <span class='footer-title'>Về chúng tôi</span>
+            <hr class='line' />
+            <p><a href='/aboutUs'>Giới thiệu</a></p>
+            <p><a href='/giftCard'>Thẻ quà tặng</a></p>
+            <p><a href='/careers'>Tuyển dụng</a></p>
+          </div>
+          <div class='col policy'>
+            <span class='footer-title'>Điều khoản</span>
+            <hr class='line' />
+            <p><a href='/terms-conditions'>Điều khoản chung</a></p>
+            <p><a href=''>Điều khoản giao dịch</a></p>
+          </div>
+          <div class='col scocialMedia'>
+            <span class='footer-title'>Kết nối</span>
+            <hr class='line' />
+            <p><a href=''><i class='fa-brands fa-facebook'></i> Facebook</a></p>
+            <p><a href=''><i class='fa-brands fa-twitter'></i> Twitter</a></p>
+            <p><a href=''><i class='fa-brands fa-tiktok'></i> Tiktok</a></p>
+          </div>
+          <div class='col CSKH'>
+            <span class='footer-title'>Chăm sóc khách hàng</span>
+            <hr class='line' />
+            <p>Hotline: 0123456789</p>
+            <p>Giờ làm việc: 08:00 - 22:00 (Bao gồm cả ngày lễ)</p>
+            <p>Email Q&A:<a href='mailto:hoidap@cinema.com' class='emailQA'>
+                hoidap@cinema.com</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    {{! End Footer }}
+    <script>
+      let subMenu = document.getElementById('subMenu'); function toggleMenu(){
+      subMenu.classList.toggle('open-menu'); }
+    </script>
+  </body>
+</html>

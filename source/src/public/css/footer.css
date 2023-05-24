@@ -1,0 +1,40 @@
+.footer{
+    font-size: 20px;
+    width: 100%;
+}
+
+.footer-title{
+    font-size: 22px;
+    color: #fff;
+}
+
+p {
+    color: #62CDFF;
+}
+
+.aboutUs p, .policy p, .scocialMedia p{
+    margin: 12px 0;
+}
+.aboutUs a, .policy a, .scocialMedia a{
+    text-decoration: none;
+    color: #62CDFF;
+}
+.aboutUs a:hover, .policy a:hover, .scocialMedia a:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.line{
+    border: 2px solid #97DEFF;
+    width: 50%;
+}
+
+.emailQA{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.emailQA:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}

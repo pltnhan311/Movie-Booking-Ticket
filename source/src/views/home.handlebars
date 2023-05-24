@@ -1,0 +1,275 @@
+<link rel='stylesheet' href='css/home.css' />
+
+{{! Slider Section }}
+<div class='slider'>
+  <div class='mg-40-0'>
+    <div
+      id='carouselExampleCaptions'
+      class='carousel slide'
+      data-bs-ride='carousel'
+    >
+      <div class='carousel-indicators'>
+        <button
+          type='button'
+          data-bs-target='#carouselExampleCaptions'
+          data-bs-slide-to='0'
+          class='active'
+          aria-current='true'
+          aria-label='Slide 1'
+        ></button>
+        <button
+          type='button'
+          data-bs-target='#carouselExampleCaptions'
+          data-bs-slide-to='1'
+          aria-label='Slide 2'
+        ></button>
+        <button
+          type='button'
+          data-bs-target='#carouselExampleCaptions'
+          data-bs-slide-to='2'
+          aria-label='Slide 3'
+        ></button>
+        <button
+          type='button'
+          data-bs-target='#carouselExampleCaptions'
+          data-bs-slide-to='3'
+          aria-label='Slide 4'
+        ></button>
+      </div>
+      <div class='carousel-inner d-flex align-items-center' id='imgSlide'>
+        {{#each (break movies)}} {{#ifeq @index 0}}
+              <div class='carousel-item active'>
+                <a href="/movieDetail/{{this._id}}">
+                  <img
+                    src='{{this.banner}}'
+                    class='d-block w-100'
+                    alt='...'
+                  />
+                </a>
+              </div>
+            {{/ifeq}}
+            {{#ifneq @index 0}}{{#ifneq @index 1}}
+            <div class='carousel-item'>
+              <a href="/movieDetail/{{this._id}}">
+                <img src='{{this.banner}}' class='d-block w-100' alt='...' />
+              </a>
+            </div>
+            {{/ifneq}}{{/ifneq}}
+        {{/each}}
+      </div>
+      <a
+        class='carousel-control-prev'
+        href='#carouselExampleCaptions'
+        role='button'
+        data-bs-slide='prev'
+      >
+        <span class='carousel-control-prev-icon' aria-hidden='true'></span>
+        <span class='sr-only'>Previous</span>
+      </a>
+      <a
+        class='carousel-control-next'
+        href='#carouselExampleCaptions'
+        role='button'
+        data-bs-slide='next'
+      >
+        <span class='carousel-control-next-icon' aria-hidden='true'></span>
+        <span class='sr-only'>Next</span>
+      </a>
+    </div>
+  </div>
+</div>
+{{! End Slider Section }}
+
+
+{{! Film Section }}
+<div id="film-section" class="film-section">
+  <div class="text-align-center title-intro">
+    <a href="/"><button class="btn-type-film">PHIM ĐANG CHIẾU</button></a>
+    <a href="/comingsoon"
+      ><button class="btn-type-film">PHIM SẮP CHIẾU</button></a
+    >
+  </div>
+
+  <div id="film-carousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      {{#each movies}} {{#isModZero @index 4}} {{#ifeq @index 0}}
+      <div class="carousel-item active">
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#film-carousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#film-carousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        {{/ifeq}} {{#ifneq @index 0}}
+        <div class="carousel-item">
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#film-carousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#film-carousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+          {{/ifneq}}
+          <div class="row mg-0-40 g-2">
+            {{/isModZero}}
+            <div class="col-lg-3 col-md-6 col-sm-12 film-item">
+              <a
+                href="/movieDetail/{{this._id}}"
+                class="none-text-decoration white-text"
+              >
+                <div class="poster-film">
+                  <img src="{{this.poster}}" alt="" />
+                </div>
+                <div>
+                  <p class="text-align-center title-movie">{{this.title}}</p>
+                </div>
+                <button class="btn-buy-ticket mg-30-0">Mua vé</button>
+              </a>
+            </div>
+            {{#isModThree @index 4}}
+          </div>
+        </div>
+        {{/isModThree}} {{/each}}
+      </div>
+    </div>
+  </div>
+</div>
+
+{{! End Film Section }}
+
+{{! Event Section }}
+<div class='event-section'>
+  <h1 class='text-align-center title-kmai'>KHUYẾN MÃI | SỰ KIỆN</h1>
+
+  <div
+    id='carouselExampleIndicators'
+    class='carousel slide'
+    data-bs-ride='carousel'
+  >
+    <div id='carousel-dots' class='carousel-indicators'>
+      <button
+        type='button'
+        data-bs-target='#carouselExampleIndicators'
+        data-bs-slide-to='0'
+        class='active'
+        aria-current='true'
+        aria-label='Slide 1'
+      ></button>
+      <button
+        type='button'
+        data-bs-target='#carouselExampleIndicators'
+        data-bs-slide-to='1'
+        aria-label='Slide 2'
+      ></button>
+      <button
+        type='button'
+        data-bs-target='#carouselExampleIndicators'
+        data-bs-slide-to='2'
+        aria-label='Slide 3'
+      ></button>
+    </div>
+    <div class='carousel-inner'>
+      <div class='carousel-item active'>
+        <div class='row mg-0-40 g-2'>
+          <div class='col-lg-4 col-md-6 film-item'>
+            <div class='poster-event'>
+              <img src='/img/event-1.png' alt='' />
+            </div>
+          </div>
+          <div class='col-lg-4 col-md-6 film-item'>
+            <div class='poster-event'>
+              <img src='/img/event-2.png' alt='' />
+            </div>
+          </div>
+          <div class='col-lg-4 col-md-6 film-item'>
+            <div class='poster-event'>
+              <img src='/img/event-3.png' alt='' />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='carousel-item'>
+        <div class='row mg-0-40 g-2'>
+          <div class='col-lg-4 col-md-6 film-item'>
+            <div class='poster-event'>
+              <img src='/img/event-4.jpg' alt='' />
+            </div>
+          </div>
+          <div class='col-lg-4 col-md-6 film-item'>
+            <div class='poster-event'>
+              <img src='/img/event-5.png' alt='' />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='carousel-item'>
+        <div class='row mg-0-40 g-2'>
+          <div class='col-lg-4 col-md-6 film-item'>
+            <div class='poster-event'>
+              <img src='/img/event-4.jpg' alt='' />
+            </div>
+          </div>
+          <div class='col-lg-4 col-md-6 film-item'>
+            <div class='poster-event'>
+              <img src='/img/event-5.png' alt='' />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{! End Event Section }}
+
+{{! Member Section }}
+<div class='member-section'>
+  <h1 class="text-align-center title-member my-3">MBTMax Member</h1>
+
+  <div class='row mg-0-30 g-2'>
+    <div class='col-lg-4 col-md-6 film-item'>
+      <div class='poster-member'>
+        <img src='/img/member_normal.png' alt='' />
+      </div>
+    </div>
+    <div class='col-lg-4 col-md-6 film-item'>
+      <div class='poster-member'>
+        <img src='/img/member_gold.png' alt='' />
+      </div>
+    </div>
+    <div class='col-lg-4 col-md-6 film-item'>
+      <div class='poster-member'>
+        <img src='/img/member_diamond.png' alt='' />
+      </div>
+    </div>
+  </div>
+
+  <div class='text-center mg-30-0'>
+    <a href='/register' class='btn btn-register'>ĐĂNG KÝ NGAY</a>
+  </div>
+</div>
+
+
+{{! End Member Section }}

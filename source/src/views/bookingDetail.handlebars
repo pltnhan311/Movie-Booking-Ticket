@@ -1,0 +1,141 @@
+<div class='h-screen flex-grow-1 overflow-y-lg-auto'>
+  <div class='container'>
+    <div class='form-group text-small'>
+      <small><a href='/admin/bookingManager'>Quay lại</a></small>
+    </div>
+    <h4 class='text-success'>Chi tiết đơn đặt vé</h4>
+    <div class='row justify-content-center'>
+      <div class='col-xl-8 col-lg-8 col-md-8 border mt-3 pt-3 rounded' style="margin-bottom: 20px;">
+        <form action='/admin/bookingDetail/{{booking._id}}' method='post' novalidate>
+          <div class='form-group'>
+            <label for='userName'>Tên khách hàng</label>
+            <input
+              value='{{booking.user.name}}'
+              type='text'
+              id='userName'
+              name='userName'
+              class='form-control'
+              readonly
+            />
+          </div>
+          <div class='form-group'>
+            <label for='movieTitle'>Tên phim</label>
+            <input
+              value='{{booking.movie.title}}'
+              type='text'
+              id='movieTitle'
+              name='movieTitle'
+              class='form-control'
+              readonly
+            />
+          </div>
+          <div class='form-group'>
+            <label for='nameCinema'>Rạp</label>
+            <input
+              value='{{booking.theater.nameCinema}}'
+              type='text'
+              id='nameCinema'
+              name='nameCinema'
+              class='form-control'
+              readonly
+            />
+          </div>
+          <div class='form-group'>
+            <label for='date'>Ngày chiếu</label>
+            <input
+              value='{{booking.showtime.dateTime}}'
+              type='text'
+              id='date'
+              name='date'
+              class='form-control'
+              readonly
+            />
+          </div>
+          <div class='form-group'>
+            <label for='time'>Suất chiếu</label>
+            <input
+              {{#each booking.showtime.showtime}}
+                  value='{{this.startTime}} - {{this.endTime}}'
+              {{/each}}
+              type='text'
+              id='time'
+              name='time'
+              class='form-control'
+              readonly
+            />
+          </div>
+          <div class='form-group'>
+            <label for='seats'>Ghế</label>
+            <input
+              value='{{booking.seats}}'
+              type='text'
+              id='seats'
+              name='seats'
+              class='form-control'
+              readonly
+            />
+          </div>
+          <div class='form-group'>
+            <label for='food'>Đồ ăn</label>
+            <input
+              {{#each booking.food}}
+                value='{{this.name}}'
+              {{/each}}
+              type='text'
+              id='food'
+              name='food'
+              class='form-control'
+              readonly
+            />
+          </div>
+          <div class='form-group'>
+            <label for='status'>Trạng thái</label><br />
+            <input type='radio' name='status'
+              id='processing'
+              value="Chờ nhận vé"
+            {{#ifeq booking.status 'Chờ nhận vé'}}
+                checked
+            {{/ifeq}}/>
+            <label for='processing'>Chờ nhận vé</label>
+            <br />
+            <input
+              type='radio'
+              name='status'
+              id='processed'
+              value="Đã nhận vé"
+              {{#ifeq booking.status 'Đã nhận vé'}}
+                checked
+              {{/ifeq}}
+            />
+            <label for='processed'>Đã nhận vé</label>
+          </div>
+          <div class='form-group'>
+            <label for='poster'>Tổng thanh toán</label>
+            <input
+              value='{{booking.totalPrice}}'
+              type='text'
+              id='poster'
+              name='poster'
+              class='form-control'
+              readonly
+            />
+          </div>
+
+          <div class='form-group'>
+            {{#if error}}
+              <br />
+              <div class='alert alert-danger alert-dismissible fade show'>
+                {{error}}
+              </div>
+              <br />
+            {{/if}}
+          </div>
+          <br>
+          <div class='form-group'>
+            <button type="submit" class='btn btn-success mr-2'>Cập nhật</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,397 @@
+<link rel='stylesheet' href='/css/movie-detail.css' />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<style>
+  .wide-modal .modal-dialog {
+    max-width: 80%; /* Adjust this value to make the modal wider */
+  }
+  .bigScreen{
+    text-align: center;
+    vertical-align: middle;
+    height: 120px;
+    color: black;
+    font-size: 60px;
+    background-color: #fff;
+    width: 100%;
+    margin: 15px 0;
+    transform: rotateX(-45deg);
+    box-shadow: 0 3px 10px rgba(255, 255, 255, 0.7);
+  }
+</style>
+<h1 class='text-center'>CHI TIẾT PHIM</h1>
+<div class='row mg-40'>
+  <div class='col-lg-1 col-md-1'></div>
+  <div class='col-lg-3 col-md-5'>
+    <img src='{{movie.poster}}' alt=' ' />
+  </div>
+  <div class='col-lg-6 col-md-5'>
+    <h4>{{movie.title}}</h4>
+    <p
+      style='opacity: 0.7; font-size: 20px; padding-bottom: 20px'
+    >{{movie.description}}</p>
+    <p class='movie-info'>Thể loại: {{movie.genre}}</p>
+    <p class='movie-info'>Đạo diễn: {{movie.director}}</p>
+    <p class='movie-info'>Diễn viên: {{movie.cast}}</p>
+    <p class='movie-info'>Khởi chiếu: {{movie.releaseDate}}</p>
+    <p class='movie-info'>Thời lượng: {{movie.duration}} phút</p>
+    <p class='movie-info'>Ngôn ngữ: {{movie.language}}</p>
+    <div class='btn-group'>
+      <a
+        title='button shiny 2'
+        class='fui-button-shiny-2'
+        onclick='showTrailer()'
+      >XEM TRAILER</a>
+        {{#ifeq movie.status "Đang chiếu"}}
+          {{#if user}}
+              <a
+                title='button shiny 3'
+                class='fui-button-shiny-3'
+                data-bs-toggle='modal'
+                data-bs-target='#buyTicketModal'
+                style="cursor: pointer"
+              >MUA VÉ NGAY
+              </a>
+          {{else}}
+            <a class='fui-button-shiny-3' href="/login">MUA VÉ NGAY</a>
+          {{/if}}
+        {{/ifeq}}
+
+    </div>
+  </div>
+  <div
+    class='modal fade'
+    id='buyTicketModal'
+    tabindex='-1'
+    aria-labelledby='buyTicketModalLabel'
+    aria-hidden='true'
+  >
+    <div class='modal-dialog modal-dialog-centered'>
+      <div class='modal-content'>
+        <div class='modal-header'>
+          <h5 class='modal-title' id='buyTicketModalLabel'>Đặt Vé Xem Phim</h5>
+          <button
+            type='button'
+            class='btn-close'
+            data-bs-dismiss='modal'
+            aria-label='Close'
+          ></button>
+        </div>
+        <div class='modal-body'>
+          <div class='container'>
+            <h3 class='text-success text-center mb-3 mt-3'>Thông Tin Đặt Vé Online</h3>
+            {{#each showtimes}}
+              <form method="post" id="bookingForm">
+              {{/each}}
+              <!-- Add this hidden input field inside your form element -->
+
+                {{! khu vuc }}
+                <div class='mb-3'>
+                  <label for='khuvuc' class='form-label'>Khu vực</label>
+                  <select class='form-select' id='khuvuc'>
+                    <option selected>Chọn khu vực</option>
+                    {{#each cities}}
+                      <option value='{{this}}'>{{this}}</option>
+                    {{/each}}
+                  </select>
+                </div>
+
+                <div class='mb-3'>
+                  <label for='rap' class='form-label'>Rạp chiếu</label>
+                  <select class='form-select' id='rap'>
+                    <option selected>Chọn rạp</option>
+                      <!-- The cinemas will be populated dynamically based on the selected city -->
+                  </select>
+                </div>
+
+                <div class='mb-3'>
+                  <label for='ngaychieu' class='form-label'>Ngày chiếu</label>
+                  <select class='form-select' id='ngaychieu'>
+                    <option selected>Chọn ngày chiếu</option>
+                  </select>
+                </div>
+
+                <div class='mb-3'>
+                  <label for='suatchieu' class='form-label'>Suất chiếu</label>
+                  <select class='form-select' id='suatchieu'>
+                    <option selected>Chọn suất chiếu</option>
+                  </select>
+                </div>
+                <div class='modal-footer'>
+                  <button
+                    type='button'
+                    class='btn btn-secondary'
+                    data-bs-dismiss='modal'
+                  >Trở lại</button>
+                  {{!-- onclick='submitBookingForm()'--}}
+                    <button type='submit' class='btn btn-danger'>Mua vé</button>
+
+                </div>
+                <input type="hidden" name="nameCinema" id="nameCinema" value="">
+                <input type="hidden" name="showTime" id="showTime" value="">
+                <input type="hidden" name="showtimeId" id="showtimeId" value="{{showtime._id}}">
+                <!-- Add this hidden input field inside your form element -->
+                <input type="hidden" name="dateTime" id="dateTime" value="">
+
+                <!-- Add more form fields as needed -->
+              </form>
+
+          </div>
+        </div>
+
+      <!-- Seat Selection Modal -->
+<div class="modal fade wide-modal" id="seatSelectionModal" tabindex="-1" aria-labelledby="seatSelectionModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content seatMap">
+      <div class="modal-header">
+        <h5 class="modal-title" id="seatSelectionModalLabel">Chọn Ghế</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+          <div class="bigScreen">Screen</div>
+          <div class="row" id="seatMap">
+            <!-- Seat layout will be populated here dynamically -->
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Trở lại</button>
+        <button type="button" class="btn btn-danger" id="confirmSeats">Xác nhận</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+  <div class='col-lg-1 col-md-1'></div>
+</div>
+{{! End Chi tiết phim }}
+
+<!-- Add this line between the two sections -->
+<hr class='section-divider' />
+
+{{! Trailer }}
+<section>
+  <div class='container'>
+    <iframe
+      id='trailer'
+      width='100%'
+      height='700px'
+      src='{{movie.trailer}}'
+      frameborder='0'
+      allowfullscreen
+      hidden
+    ></iframe>
+  </div>
+</section>
+
+<script>
+  function showTrailer() {
+    console.log("showTrailer() function called");
+    var trailer = document.getElementById("trailer");
+    var popup = document.createElement("div");
+    popup.classList.add("popup");
+    popup.onclick = function() {
+      document.body.removeChild(popup);
+    };
+    var iframe = document.createElement("iframe");
+    iframe.classList.add("popup");
+    iframe.src = trailer.src;
+    iframe.allowFullscreen = true;
+    popup.appendChild(iframe);
+    document.body.appendChild(popup);
+  }
+
+  var button = document.getElementById("button"); // thay "button" bằng ID của nút bấm của bạn
+  button.onclick = showTrailer; // gọi hàm showTrailer() khi nhấp vào nút bấm
+</script>
+
+
+{{!-- Xu ly su kien chon form booking ticket  --}}
+{{!-- Hien thi rap based on city --}}
+<script>
+  document.getElementById('khuvuc').addEventListener('change', function(event) {
+    const selectedCity = event.target.value;
+    updateCinemas(selectedCity);
+  });
+
+  function updateCinemas(selectedCity) {
+    // Assuming you have the 'cinemasData' variable containing all the cinemas
+    const theatersData = JSON.parse(decodeURIComponent('{{toJSON theaters}}'));
+    const filteredCinemas = theatersData.filter(theater => theater.city === selectedCity).map(theater => theater);
+
+
+    const rapSelect = document.getElementById('rap');
+    rapSelect.innerHTML = '<option selected>Chọn rạp</option>'; // Clear the previous options and keep the default option
+
+    filteredCinemas.forEach(cinema => {
+      const option = document.createElement('option');
+      option.value = cinema._id;
+      option.textContent = cinema.nameCinema;
+      rapSelect.appendChild(option);
+    });
+
+    // Add this line to reset the hidden input field when the city is changed
+    document.getElementById('nameCinema').value = '';
+  }
+</script>
+
+<script>
+  function updateNgayChieu(selectedCinema) {
+    const filteredShowtimes = showtimesData.filter(showtime => showtime.theater.nameCinema === selectedCinema);
+
+    const ngaychieuSelect = document.getElementById('ngaychieu');
+    ngaychieuSelect.innerHTML = '<option selected>Chọn ngày chiếu</option>';
+
+    filteredShowtimes.forEach(showtime => {
+      const option = document.createElement('option');
+      option.value = showtime.dateTime;
+      option.textContent = showtime.dateTime;
+      ngaychieuSelect.appendChild(option);
+    });
+  }
+</script>
+
+{{!-- Hien thi suat chieu based on rap --}}
+<script>
+  document.getElementById('rap').addEventListener('change', function(event) {
+    const selectedCinema = event.target.value;
+    document.getElementById('nameCinema').value = selectedCinema;
+    updateNgayChieu(selectedCinema);
+  });
+
+  document.getElementById('ngaychieu').addEventListener('change', function(event) {
+    const selectedDate = event.target.value;
+    const selectedCinema = document.getElementById('rap').value;
+    updateShowtimes(selectedCinema, selectedDate);
+  });
+
+  const showtimesData = JSON.parse(decodeURIComponent('{{toJSON showtimes}}'));
+
+  // Update Ngay chieu
+  function updateNgayChieu(selectedCinema) {
+
+    const filteredShowtimes = showtimesData.filter(showtime => showtime.theater._id === selectedCinema);
+
+    const ngaychieuSelect = document.getElementById('ngaychieu');
+    ngaychieuSelect.innerHTML = '<option selected>Chọn ngày chiếu</option>';
+
+    filteredShowtimes.forEach(showtime => {
+      const option = document.createElement('option');
+      const form = document.getElementById('bookingForm')
+      form.action = "/bookingProgress/" + showtime._id
+      option.value = showtime.dateTime;
+      option.textContent = showtime.dateTime;
+      ngaychieuSelect.appendChild(option);
+    });
+  }
+
+  // Update showtime
+  function updateShowtimes(selectedCinema, selectedDate) {
+    const filteredShowtimes = showtimesData.filter(showtime => {
+      return showtime.theater._id === selectedCinema && showtime.dateTime === selectedDate;
+    });
+
+    const suatchieuSelect = document.getElementById('suatchieu');
+    suatchieuSelect.innerHTML = '<option selected>Chọn suất chiếu</option>';
+
+    filteredShowtimes.forEach(showtime => {
+      showtime.showtime.forEach(timeSlot => {
+        const option = document.createElement('option');
+        option.value = timeSlot._id; // Assuming you want to use the Showtime's ID as the option value
+        option.textContent = timeSlot.startTime + ' - ' + timeSlot.endTime;
+        suatchieuSelect.appendChild(option);
+      });
+    });
+
+    // Add this line to reset the hidden input field when the cinema is changed
+    document.getElementById('showTime').value = '';
+  }
+</script>
+
+
+<script>
+  document.getElementById('suatchieu').addEventListener('change', function(event) {
+    const selectedShowtime = event.target.options[event.target.selectedIndex].value;
+    document.getElementById('showTime').value = selectedShowtime;
+  });
+</script>
+
+<script>
+  document.getElementById('ngaychieu').addEventListener('change', function(event) {
+    const selectedDate = event.target.options[event.target.selectedIndex].textContent;
+    document.getElementById('dateTime').value = selectedDate;
+  });
+</script>
+
+
+
+<script>
+  document.getElementById('bookingForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent the form from submitting immediately
+
+    // Show the seat selection modal
+    const seatSelectionModal = new bootstrap.Modal(document.getElementById('seatSelectionModal'));
+    seatSelectionModal.show();
+
+    // Generate a seat layout based on the number of seats in the theater
+    // You can replace this with actual data fetched from your server
+    const numRows = 7; // Example: 5 rows
+    const numColumns = 10; // Example: 10 seats per row
+    generateSeatLayout(numRows, numColumns);
+  });
+
+  function generateSeatLayout(numRows, numColumns) {
+    const seatMap = document.getElementById('seatMap');
+    seatMap.innerHTML = ''; // Clear any existing seat layout
+
+    // Add a counter for the number of selected seats
+    let numSelectedSeats = 0;
+
+    for (let i = 0; i < numRows; i++) {
+      const row = document.createElement('div');
+      row.classList.add('row', 'mb-2', 'd-flex', 'justify-content-center', 'align-items-center');
+
+      for (let j = 0; j < numColumns; j++) {
+        const seat = document.createElement('div');
+        seat.classList.add('col', 'seat', 'd-flex', 'justify-content-center', 'align-items-center');
+        const seatButton = document.createElement('button');
+        seatButton.classList.add('btn', 'btn-outline-warning');
+        seatButton.textContent = String.fromCharCode(65 + i) + (j + 1); // Seat label (A1, A2, ..., B1, B2, ...)
+        seatButton.onclick = function() {
+          // Check if the maximum number of seats has been reached
+          if (numSelectedSeats < 5 || seatButton.classList.contains('selected-seat')) {
+            seatButton.classList.toggle('btn-outline-warning');
+            seatButton.classList.toggle('btn-success');
+            seatButton.classList.toggle('selected-seat');
+
+            // Update the number of selected seats
+            numSelectedSeats = document.querySelectorAll('.selected-seat').length;
+          }
+        };
+        seat.appendChild(seatButton);
+        row.appendChild(seat);
+      }
+
+      seatMap.appendChild(row);
+    }
+  }
+
+
+
+  document.getElementById('confirmSeats').addEventListener('click', function() {
+    const selectedSeats = Array.from(document.querySelectorAll('.selected-seat')).map(button => button.textContent);
+
+    // Store the selected seats in a hidden input field, so that they will be included in the form submission
+    const selectedSeatsInput = document.createElement('input');
+    selectedSeatsInput.type = 'hidden';
+    selectedSeatsInput.name = 'selectedSeats';
+    selectedSeatsInput.value = JSON.stringify(selectedSeats);
+    document.getElementById('bookingForm').appendChild(selectedSeatsInput);
+
+    // Submit the form
+    document.getElementById('bookingForm').submit();
+  });
+
+</script>

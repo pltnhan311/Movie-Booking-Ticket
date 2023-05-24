@@ -1,0 +1,241 @@
+[{
+  "_id": {
+    "$oid": "6440d73a4175d4e06d4361ef"
+  },
+  "title": "BIỆT ĐỘI RẤT ỔN",
+  "description": "Xoay quanh bộ đôi Khuê và Phong. Sau lần chạm trán tình cờ, bộ đôi lôi kéo gia đình Bảy Cục tham gia vào phi vụ đặc biệt: Đánh tráo chiếc vòng đính hôn bằng kim cương quí giá và lật tẩy bộ mặt thật của Tuấn-chồng cũ của Khuê...",
+  "cast": "Võ Tấn Phát, Hoàng Oanh",
+  "director": "Tạ Nguyên Hiệp",
+  "releaseDate": "2023-03-31",
+  "genre": "Hài hước",
+  "duration": 104,
+  "language": "Tiếng Việt",
+  "status": "Đang chiếu",
+  "poster": "http://booking.bhdstar.vn/CDN/media/entity/get/FilmPosterGraphic/HO00002633?referenceScheme=HeadOffice&allowPlaceHolder=true&height=500",
+  "trailer": "https://www.youtube.com/embed/XHvNz4g88pE",
+  "banner": "https://i.ytimg.com/vi/dQzX_9O7Rvw/maxresdefault.jpg"
+},{
+  "_id": {
+    "$oid": "6440d73a4175d4e06d4361f0"
+  },
+  "title": "THE SUPER MARIO BROS",
+  "description": "Theo chân anh chàng thợ sửa ống nước tên Mario cùng công chúa Peach của Vương quốc Nấm trong cuộc phiêu lưu giải cứu anh trai Luigi đang bị bắt cóc và ngăn chặn tên độc tài Bowser, kẻ đang âm mưu thôn tính thế giới",
+  "cast": "Chris Pratt, Anya Taylor-Joy",
+  "director": "Aaron Horvath",
+  "releaseDate": "2023-03-31",
+  "genre": "Hoạt hình",
+  "duration": 93,
+  "language": "Phụ đề Tiếng Việt",
+  "status": "Đang chiếu",
+  "poster": "https://booking.bhdstar.vn/CDN/media/entity/get/FilmPosterGraphic/HO00002631?referenceScheme=HeadOffice&allowPlaceHolder=true&height=500",
+  "trailer": "https://www.youtube.com/embed/TnGl01FkMMo",
+  "banner": "https://dx35vtwkllhj9.cloudfront.net/universalstudios/super-mario-bros/images/gallery/posterimage1.jpg"
+},{
+  "_id": {
+    "$oid": "6440d73a4175d4e06d4361f1"
+  },
+  "title": "LẬT MẶT 6",
+  "description": "Nhóm bạn thân lâu năm bất ngờ nhận được cơ hội đổi đời khi biết tấm vé của cả nhóm trúng giải độc đắc 136.8 tỷ. Đột nhiên An,người giữ tấm vé bất ngờ qua đời, liệu trong hành trình tìm kiếm và chia chác món tiền trong mơ béo bở này sẽ đưa cả nhóm đến đâu?",
+  "cast": "Duy Khánh, Quốc Cường",
+  "director": "Lý Hải",
+  "releaseDate": "2023-04-28",
+  "genre": "Hành động",
+  "duration": 132,
+  "language": "Phụ đề Tiếng Việt",
+  "status": "Đang chiếu",
+  "poster": "http://booking.bhdstar.vn/CDN/media/entity/get/FilmPosterGraphic/HO00002653?referenceScheme=HeadOffice&allowPlaceHolder=true&height=500",
+  "trailer": "https://www.youtube.com/embed/tpjjd7usfnA",
+  "banner": "https://images2.thanhnien.vn/zoom/700_438/528068263637045248/2023/3/2/lat-mat-6-16777367690572048229264-0-89-942-1596-crop-1677738182189226298665.jpeg"
+},{
+  "_id": {
+    "$oid": "6440d73a4175d4e06d4361f2"
+  },
+  "title": "DUNGEONS & DRAGONS: THIEVES",
+  "description": "Theo chân một tên trộm quyến rũ và một nhóm những kẻ bịp bợm nghiệp dư thực hiện vụ trộm sử thi nhằm lấy lại một di vật đã mất, nhưng mọi thứ trở nên nguy hiểm khó lường hơn bao giờ hết khi họ đã chạm trám nhầm người...",
+  "cast": "Chris Pine, Michelle Rodriguez",
+  "director": "John Francis Daley",
+  "releaseDate": "2023-04-21",
+  "genre": "Phiêu lưu",
+  "duration": 134,
+  "language": "Phụ đề Tiếng Việt",
+  "status": "Đang chiếu",
+  "poster": "http://booking.bhdstar.vn/CDN/media/entity/get/FilmPosterGraphic/HO00002629?referenceScheme=HeadOffice&allowPlaceHolder=true&height=500",
+  "trailer": "https://www.youtube.com/embed/iTZJ-uwIZxg",
+  "banner": "https://movies.sterkinekor.co.za/CDN/media/entity/get/FilmTitleGraphic/HO00002613?referenceScheme=HeadOffice&allowPlaceHolder=true"
+},{
+  "_id": {
+    "$oid": "6440d73a4175d4e06d4361f3"
+  },
+  "title": "NGƯỜI GIỮ THỜI GIAN : TRI ÂM",
+  "description": "Mỹ Tâm sẽ phác họa chân thực toàn bộ những diễn biến tâm lý và cảm xúc thăng trầm cùng những thăng hoa trong suốt quá trình thực hiện Liveshow Tri Âm lịch sử bằng những thước phim quý giá được quay lại trong 2 năm...",
+  "cast": "Ca sĩ Mỹ Tâm",
+  "director": "MỸ TÂM",
+  "releaseDate": "2023-04-08",
+  "genre": "Âm nhạc",
+  "duration": 106,
+  "language": "Phụ đề Tiếng Việt",
+  "status": "Đang chiếu",
+  "poster": "https://cms.megagscinemas.vn//media/77023/tri-am-my-tam-poster700x1000.jpg",
+  "trailer": "https://www.youtube.com/embed/Q0L3WvYx9JE",
+  "banner": "https://o.rada.vn/data/image/2023/04/06/Nguoi-Giu-Thoi-Gian-700.jpg"
+},{
+  "_id": {
+    "$oid": "6440d73a4175d4e06d4361f4"
+  },
+  "title": "SIÊU LỪA GẶP SIÊU LẦY",
+  "description": "Khoa, một tên lừa đảo tới Phú Quốc với mục tiêu đổi đời. Không ngờ đây…",
+  "cast": "Mạc Văn Khoa, Anh Tú",
+  "director": "Võ Thanh Hòa",
+  "releaseDate": "2023-03-03",
+  "genre": "Hài hước",
+  "duration": 112,
+  "language": "Tiếng Việt",
+  "status": "Đang chiếu",
+  "poster": "http://booking.bhdstar.vn/CDN/media/entity/get/FilmPosterGraphic/HO00002593?referenceScheme=HeadOffice&allowPlaceHolder=true&height=500",
+  "trailer": "https://www.youtube.com/embed/NIVa1CCdFv4",
+  "banner": "https://i.ytimg.com/vi/ecNMIlP7wIs/maxresdefault.jpg"
+},{
+  "_id": {
+    "$oid": "6440d73a4175d4e06d4361f5"
+  },
+  "title": "SHAZAM! FURY OF THE GODS",
+  "description": "Tiếp tục câu chuyện về cậu thiếu niên Billy Batson và bản ngã siêu anh hùng trưởng thành của mình sau khi hô cụm từ \"SHAZAM !\" ma thuật",
+  "cast": "Grace Caroline Currey, Zachary Levi",
+  "director": "David F. Sandberg",
+  "releaseDate": "2023-03-17",
+  "genre": "Hành động",
+  "duration": 130,
+  "language": "Tiếng Việt",
+  "status": "Sắp chiếu",
+  "poster": "http://booking.bhdstar.vn/CDN/media/entity/get/FilmPosterGraphic/HO00002625?referenceScheme=HeadOffice&allowPlaceHolder=true&height=500",
+  "trailer": "https://www.youtube.com/embed/AIc671o9yCI",
+  "banner": "https://congluan-cdn.congluan.vn/files/content/2023/03/20/shazam-2-thu-ve-von-ven-30-trieu-usd-trong-tuan-dau-ra-mat-195242734.jpg"
+},{
+  "_id": {
+    "$oid": "6440d73a4175d4e06d4361f6"
+  },
+  "title": "THANH GƯƠM DIỆT QUỶ",
+  "description": "Sau trận chiến khốc liệt với anh em quỷ Thượng Huyền Lục Gyuutarou và Daki tại Phố Đèn Đỏ, Tanjiro và các kiếm sĩ diệt quỷ đều bị thương nặng, thanh gươm của Tanjiro cũng bị hư hỏng nặng và cậu cần một thanh gươm mới để tiếp tục làm nhiệm vụ...",
+  "cast": "Toshio Furukawa, Natsuki Hanae",
+  "director": "Haruo Sotozaki",
+  "releaseDate": "2023-03-22",
+  "genre": "Hoạt hình",
+  "duration": 110,
+  "language": "Tiếng Việt",
+  "status": "Sắp chiếu",
+  "poster": "http://booking.bhdstar.vn/CDN/media/entity/get/FilmPosterGraphic/HO00002645?referenceScheme=HeadOffice&allowPlaceHolder=true&height=500",
+  "trailer": "https://www.youtube.com/embed/IbyYUvLZ6fM",
+  "banner": "https://i.ytimg.com/vi/IbyYUvLZ6fM/maxresdefault.jpg"
+},{
+  "_id": {
+    "$oid": "6440d73a4175d4e06d4361f7"
+  },
+  "title": "SOULMATE",
+  "description": "Mi So và Ha Eun trong một mối quan hệ chồng chéo chất chứa những hạnh phúc, rung động và biệt ly. Từ giây phút gặp nhau , hai cô gái đã hình thành sợi dây liên kết đặc biệt nhưng mối quan hệ của họ rạn nứt khi một chàng trai xuất hiện...",
+  "cast": "Kim Da-Mi, Woo-Seok Byeon",
+  "director": "Young-Keun Min",
+  "releaseDate": "2023-04-17",
+  "genre": "Chính kịch",
+  "duration": 124,
+  "language": "Phụ đề Tiếng Việt",
+  "status": "Sắp chiếu",
+  "poster": "https://booking.bhdstar.vn/CDN/media/entity/get/FilmPosterGraphic/HO00002611?referenceScheme=HeadOffice&allowPlaceHolder=true&height=500",
+  "trailer": "https://www.youtube.com/embed/tCC7hrheTR8",
+  "banner": "https://staticg.sportskeeda.com/editor/2023/02/93689-16761207410867-1920.jpg"
+},{
+  "_id": {
+    "$oid": "6440d73a4175d4e06d4361f8"
+  },
+  "title": "THE FIRST SLAM DUNK",
+  "description": "Hanamichi Sakuragi bắt đầu quan tâm đến một cô gái tên Haruko ,người yêu thích bóng rổ.Vì thế cậu quyết định tham gia Câu lạc bộ bóng rổ trường trung học Shohoku và tài năng của cậu nhanh chóng phát triển sau những trận đấu",
+  "cast": "Masaya Fukunishi, Yoshiaki Hasegawa",
+  "director": "Takehiko Inoue",
+  "releaseDate": "2023-04-14",
+  "genre": "Hoạt hình",
+  "duration": 124,
+  "language": "Phụ đề Tiếng Việt",
+  "status": "Sắp chiếu",
+  "poster": "http://booking.bhdstar.vn/CDN/media/entity/get/FilmPosterGraphic/HO00002640?referenceScheme=HeadOffice&allowPlaceHolder=true&height=500",
+  "trailer": "https://www.youtube.com/embed/8x7-46aDmHQ",
+  "banner": "https://media-cdn-v2.laodong.vn/storage/newsportal/2023/4/18/1181508/The-First-Slam-Dunk-.jpg"
+},{
+  "_id": {
+    "$oid": "6440d73a4175d4e06d4361f9"
+  },
+  "title": "MY BEAUTIFUL MAN MOVIE",
+  "description": "Hira, 17 tuổi, cố gắng ẩn mình ở trường, không bao giờ muốn phơi bày tật nói lắp của mình với các bạn cùng lớp. Anh ấy nhìn thế giới qua ống kính máy ảnh của mình, cho đến một ngày Kiyoi Sou bước qua cửa lớp...",
+  "cast": "Riku Hagiwara, Yusei Yagi",
+  "director": "Mai Sakai",
+  "releaseDate": "2023-04-14",
+  "genre": "Chính kịch",
+  "duration": 132,
+  "language": "Phụ đề Tiếng Việt",
+  "status": "Sắp chiếu",
+  "poster": "http://booking.bhdstar.vn/CDN/media/entity/get/FilmPosterGraphic/HO00002651?referenceScheme=HeadOffice&allowPlaceHolder=true&height=500",
+  "trailer": "https://www.youtube.com/embed/-_bjpJ7noQE",
+  "banner": "https://1.vikiplatform.com/c/38232c/2475a39366.jpg?x=b&a=0x0"
+},{
+  "_id": {
+    "$oid": "6440d73a4175d4e06d4361fa"
+  },
+  "title": "RENFIELD",
+  "description": "Renfield bị buộc phải bắt con mồi về cho chủ nhân và thực hiện mọi mệnh lệnh, kể cả những việc nhục nhã. Nhưng giờ đây, sau nhiều thế kỷ làm nô lệ, Renfield đã sẵn sàng để khám phá cuộc sống bên ngoài cái bóng của Hoàng Tử Bóng Đêm...",
+  "cast": "Nicolas Cage, Nicholas Hoult",
+  "director": "Chris McKay",
+  "releaseDate": "2023-04-14",
+  "genre": "Kinh dị",
+  "duration": 92,
+  "language": "Phụ đề Tiếng Việt",
+  "status": "Sắp chiếu",
+  "poster": "http://booking.bhdstar.vn/CDN/media/entity/get/FilmPosterGraphic/HO00002656?referenceScheme=HeadOffice&allowPlaceHolder=true&height=500",
+  "trailer": "https://www.youtube.com/embed/_hO0vGwqClM",
+  "banner": "https://movies.universalpictures.com/media/05-ren-dm-mobile-banner-1080x745-now-rr-f01-040723-1-6438b9aff38b4-1.jpg"
+},{
+  "_id": {
+    "$oid": "6440d73a4175d4e06d4361fb"
+  },
+  "title": "THE POPE'S EXORCIST",
+  "description": "Từ những hồ sơ có thật của Cha Gabriele Amorth, Trưởng Trừ Tà của Vatican, The Pope's Exorcist theo chân Amorth trong cuộc điều tra về vụ quỷ ám kinh hoàng của một cậu bé và dần khám phá ra những bí mật hàng thế kỉ mà Vatican đã cố giấu kín...",
+  "cast": "Russell Crowe, Daniel Zovatto",
+  "director": "Julius Avery",
+  "releaseDate": "2023-04-14",
+  "genre": "Kinh dị",
+  "duration": 104,
+  "language": "Phụ đề Tiếng Việt",
+  "status": "Sắp chiếu",
+  "poster": "http://booking.bhdstar.vn/CDN/media/entity/get/FilmPosterGraphic/HO00002665?referenceScheme=HeadOffice&allowPlaceHolder=true&height=500",
+  "trailer": "https://www.youtube.com/embed/HPQgWZpQlv4",
+  "banner": "https://www.heavenofhorror.com/wp-content/uploads/2023/02/The-Popes-Exorcist-2023-horror-movie.jpg"
+},{
+  "_id": {
+    "$oid": "6440d73a4175d4e06d4361fc"
+  },
+  "title": "AIR",
+  "description": "Bí mật trong mối quan hệ hợp tác lịch sử giữa Nike và một vận động viên bóng rổ vĩ đại.Cả hai đã cho ra mắt thương hiệu Air Jordan đình đám và theo chân Sonny Vaccaro- saleman của Nike trong hành trình tiếp cận và đánh cược cả sự nghiệp vào Michael Jordan",
+  "cast": "Viola Davis",
+  "director": "Ben Affleck",
+  "releaseDate": "2023-04-14",
+  "genre": "Chính kịch",
+  "duration": 112,
+  "language": "Phụ đề Tiếng Việt",
+  "status": "Đang chiếu",
+  "poster": "http://booking.bhdstar.vn/CDN/media/entity/get/FilmPosterGraphic/HO00002670?referenceScheme=HeadOffice&allowPlaceHolder=true&height=500",
+  "trailer": "https://www.youtube.com/embed/Euy4Yu6B3nU",
+  "banner": "https://highoncinemaa.com/wp-content/uploads/2023/04/air-movie-poster-1.jpg"
+},{
+  "_id": {
+    "$oid": "6440d73a4175d4e06d4361fd"
+  },
+  "title": "SUZUME",
+  "description": "Suzume, cô gái sống ở thị trấn yên tĩnh ở Kyushu đã gặp một chàng trai trẻ bí ẩn và nói với cô rằng \"Tôi đang tìm một cánh cửa\", những cánh cửa dần mở ra và gây ra sự hủy diệt cho bất kì ai đến gần, Suzume cần phải làm gì đó để những cánh cửa đóng lại...",
+  "cast": "Nanoka Hara, Hokuto Matsumura",
+  "director": "Makoto Shinkai",
+  "releaseDate": "2023-03-10",
+  "genre": "Hoạt hình",
+  "duration": 122,
+  "language": "Tiếng Việt",
+  "status": "Đang chiếu",
+  "poster": "http://booking.bhdstar.vn/CDN/media/entity/get/FilmPosterGraphic/HO00002637?referenceScheme=HeadOffice&allowPlaceHolder=true&height=500",
+  "trailer": "https://www.youtube.com/embed/xQ4_c8JfuzI",
+  "banner": "https://chieuphimquocgia.com.vn/Themes/RapChieuPhim/Content/content.v2/images/KhoaChatCuaNao_Slider.jpg"
+}]

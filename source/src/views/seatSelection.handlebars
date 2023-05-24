@@ -1,0 +1,333 @@
+<link rel="stylesheet" href="/css/bookinginfo.css">
+<div class="booking-container">
+  <h1 class="p-4 mb-4 text-primary text-center">Thông tin thanh toán</h1>
+  <form action="/booking/{{showtimeId}}" class="form-info" method="post" novalidate>
+
+  <div class="row">
+
+  
+  <div class="col-md-6 ">
+
+
+  <h4 class="mb-4 mt-5 text-center text-success fs-1 fst-italic">Thưởng thức món ăn ngon, trải nghiệm điện ảnh đỉnh cao!"</h4>
+
+  <div class="row ms-5 mb-4 d-flex align-items-center justify-content-center">
+  <div class="col-md-5">
+  <label for="comboFood" class="form-label text-warning fs-4">Combo đồ ăn</label>
+  <div class="input-group h-50 w-75">
+  <select class="form-select bg-dark bg-gradient text-white" id="comboFood" name="comboFood" >
+    {{#each food}}
+    <option
+      value="{{this._id}}"
+      data-img="{{this.img}}"
+      data-price="{{this.price}}"
+    >
+      {{this.name}}
+      {{#ifneq this.price 0}}
+        - {{this.price}}
+      {{/ifneq}}
+    </option>
+    {{/each}}
+  </select>
+  <span class="input-group-text  text-white">
+    <i class="bi bi-emoji-heart-eyes"></i>
+  </span>
+  </div>
+  </div>
+
+  <div class="col-md-6 d-flex align-items-center justify-content-center">
+  <img
+  id="comboFoodImg"
+  src="/img/cinemaFood.jpg"
+  alt=""
+  width="250px"
+  height="250px"
+  onload="calculateTotalPriceFood()"
+  />
+  </div>
+  </div>
+
+  <div class="row ms-5 mb-4 d-flex align-items-center justify-content-center">
+  <div class="col-md-5">
+  <label for="quantity" class="form-label text-info fs-4">Số lượng</label>
+  <div class="input-group h-50 w-75">
+
+  <input
+    type="number"
+    class="form-control bg-dark bg-gradient text-white"
+    id="quantity"
+    name="quantity"
+    value="1"
+    min="1"
+  />
+  </div>
+  </div>
+<div class="col-md-6 d-flex align-items-center justify-content-center"></div>
+  </div>
+  </div>
+
+  <div class="col-md-6">
+  {{!-- User / Movie / Theater --}}
+  <hr class="dotted">
+  <div class="row my-custom-row">
+    <div class="col-md-6 mb-4">
+        <label for="name" class="form-label text-warning fs-4">Tên khách hàng</label>
+        <div class="input-group h-50 ">
+          <input
+            type="text"
+            class="form-control  text-white"
+            id="name"
+            style="background-color: transparent; border: none"
+            name="name"
+            value="{{user.name}}"
+            readonly
+          />
+          <input
+            type="hidden"
+            class="form-control"
+            id="userId"
+            name="userId"
+            value="{{user._id}}"
+            readonly
+          />
+        </div>
+    </div>
+  </div>
+
+  <div class="row my-custom-row">
+    <div class="col-md-6 mb-4">
+        <label for="movie" class="form-label text-warning fs-4">Tên Phim</label>
+        <div class="input-group h-50 ">
+        
+          <input
+            type="text"
+            class="form-control text-white"
+            style="background-color: transparent; border: none"
+            id="movie"
+            name="movie"
+            value="{{ showtime.movie.title }}"
+            readonly
+          />
+          <input
+            type="hidden"
+            class="form-control"
+            id="movieId"
+            name="movieId"
+            value="{{ showtime.movie.id }}"
+            readonly
+          />
+        </div>
+    </div>
+  </div>
+   
+  <div class="row my-custom-row">
+    <div class="col-md-6 mb-4">
+      <label for="cinema" class="form-label text-warning fs-4">Rạp chiếu</label>
+      <div class="input-group h-50 ">
+
+        <input
+          type="text"
+          class="form-control  text-white"
+          id="cinema"
+          style="background-color: transparent; border: none"
+          name="cinema"
+          value="{{theater.nameCinema}}"
+          readonly
+        />
+        <input
+          type="hidden"
+          class="form-control"
+          id="cinemaId"
+          name="cinemaId"
+          value="{{theater.id}}"
+          readonly
+        />
+      </div>
+    </div>
+  </div>
+
+  {{!-- Date / Seat / Price Ticket --}}
+  <hr class="dotted">
+  <div class="row my-custom-row">
+    <div class="col-md-3 mb-4">
+      <label for="date" class="form-label text-warning fs-4">Ngày xem</label>
+      <div class="input-group h-50 ">
+ 
+        <input
+          type="text"
+          class="form-control text-white"
+          style="background-color: transparent; border: none"
+          id="date"
+          name="date"
+          value="{{dateTime}}"
+          readonly
+        />
+      </div>
+    </div>
+    <div class="col-md-3 mb-4">
+      <label for="time" class="form-label text-warning fs-4">Giờ xem</label>
+      <div class="input-group h-50 ">
+    
+        <input
+          type="text"
+          class="form-control  text-white"
+          id="time"
+          style="background-color: transparent; border: none"
+          name="time"
+          value="{{startTime}} - {{endTime}}"
+          readonly
+        />
+        <input
+          type="hidden"
+          class="form-control"
+          id="showtimeId"
+          name="showtimeId"
+          value="{{showtimeId}}"
+          readonly
+        />
+        <input
+          type="hidden"
+          class="form-control"
+          id="sId"
+          name="sId"
+          value="{{sId}}"
+          readonly
+        />
+      </div>
+    </div>
+  </div>
+  <div class="row my-custom-row">
+    <div class="col-md-3 mb-4">
+        <label for="selectedSeats" class="form-label text-warning fs-4">Ghế đã chọn</label>
+        <div class="input-group h-50 ">
+   
+          <input
+            type="text"
+            class="form-control  text-white"
+            id="selectedSeats"
+            style="background-color: transparent; border: none"
+            name="selectedSeats"
+            value="{{selectedSeats}}"
+            readonly
+          />
+        </div>
+    </div>
+    <div class="col-md-3 mb-4">
+            <label for="seatTotalPrice" class="form-label text-warning fs-4">Giá vé</label>
+            <div class="input-group h-50 ">
+      
+              <input
+                type="text"
+                class="form-control  text-white"
+                id="seatTotalPrice"
+                style="background-color: transparent; border: none"
+                name="seatTotalPrice"
+                value="{{seatTotalPrice}}"
+                readonly
+              />
+            </div>
+    </div>
+  </div>
+
+  {{!-- Price food --}}
+  <hr class="dotted">
+  <div class="row my-custom-row">
+    <div class="col-md-5 mb-4">
+        <label for="totalPriceFood" class="form-label text-info fs-4">Tổng giá tiền đồ ăn</label>
+        <div class="input-group h-50 ">
+          <input type="text" class="form-control bg-dark bg-gradient text-white" id="totalPriceFood" style="background-color: transparent; border: none" readonly />
+        </div>
+    </div>
+    <div class="col-md-1 mb-4"></div>
+  </div>
+
+  <div class="row my-custom-row">
+    <div class="col-md-5 mb-4">
+        <label for="totalPrice" class="form-label text-info fs-4">Tổng thanh toán</label>
+        <div class="input-group h-50 ">
+          <input type="text" class="form-control bg-dark bg-gradient text-white" id="totalPrice" name="totalPrice" style="background-color: transparent; border: none" readonly />
+        </div>
+    </div>
+    <div class="col-md-1 mb-4"></div>
+  </div>
+
+  <div class="row my-custom-row">
+    <div class="col-md-5 mb-4">
+        <label for="payment" class="form-label text-info fs-4">Phương thức thanh toán</label>
+        <div class="input-group  h-50">
+          <select name="payment" id="payment" class="form-control bg-dark bg-gradient text-white">
+            {{#each payments}}
+              <option value="{{this.id}}">{{this.method}}</option>
+            {{/each}}
+          </select>
+        </div>
+    </div>
+    <div class="col-md-1 mb-4"></div>
+  </div>
+
+  <hr class="dotted">
+
+  <div class="row my-custom-row">
+    <div class="col-md-5 mb-4">
+      <button type="submit" class="btn btn-success mt-2 btn-lg w-100">Đặt vé</button>
+    </div>
+    <div class="col-md-1 mb-4"></div>
+  </div>
+
+  </div>
+
+</div>
+
+
+
+  </form>
+
+
+<script>
+  const comboFoodSelect = document.getElementById('comboFood');
+  const comboFoodImg = document.getElementById('comboFoodImg');
+  const quantityInput = document.getElementById('quantity');
+  const totalPriceFoodInput = document.getElementById('totalPriceFood');
+  const seatTotalPrice = document.getElementById('seatTotalPrice')
+
+  const totalPriceInput = document.getElementById('totalPrice');
+
+
+  function calculateTotalPriceFood() {
+    const selectedOption = comboFoodSelect.options[comboFoodSelect.selectedIndex];
+    const price = Number(selectedOption.getAttribute('data-price'));
+    const quantity = Number(quantityInput.value);
+    const totalPriceFood = price * quantity;
+    totalPriceFoodInput.value = totalPriceFood.toLocaleString('vi-VN') + ' đ'; // Use local currency formatting
+  }
+  function calculateTotalPrice() {
+    const selectedOption = comboFoodSelect.options[comboFoodSelect.selectedIndex];
+    const price = Number(selectedOption.getAttribute('data-price'));
+    const quantity = Number(quantityInput.value);
+    const totalPrice = price * quantity + parseInt(seatTotalPrice.value);
+    totalPriceInput.value = totalPrice.toLocaleString('vi-VN') + ' đ'; // Use local currency formatting
+  }
+
+  comboFoodSelect.addEventListener('change', function() {
+    const selectedOption = comboFoodSelect.options[comboFoodSelect.selectedIndex];
+    const imgSrc = selectedOption.getAttribute('data-img');
+    comboFoodImg.src = imgSrc;
+    calculateTotalPriceFood();
+  });
+
+  comboFood.addEventListener('change', function() {
+    const selectedOption = comboFoodSelect.options[comboFoodSelect.selectedIndex];
+    const imgSrc = selectedOption.getAttribute('data-img');
+    comboFoodImg.src = imgSrc;
+    calculateTotalPrice();
+  });
+
+  quantityInput.addEventListener('input', function() {
+    calculateTotalPriceFood();
+  });
+
+  quantityInput.addEventListener('click', function() {
+    calculateTotalPrice();
+  });
+  calculateTotalPrice();
+</script>

@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.card-title {
+    font-size: 16px;
+}
+.card-text{
+    font-size: 14px;
+}
+.shareBtn{
+    padding: 6px;
+}
+.card-img-top{
+    border: 1px solid #B4E4FF;
+    border-radius: 10px;
+}
+.card-img-top:hover{
+    transform: scale(1.1);
+}
+.card {
+    background-color: transparent;
+}
+.card-link{
+    color: white;
+    text-decoration: none;
+}
+.card-link:hover{
+    color: #62CDFF;
+}
+
+.cinemaList{
+    background-color: transparent;
+    height: fit-content;
+    border-radius: 15px;
+    background-image: url(../img/locationBG.jpg);
+}
+.cinemaList a{
+    width: 70%;
+    margin: 20px 16%;
+    padding: 20px 10px;
+    height: fit-content;
+    text-align: center;
+    background-color: #40aee1;
+    border-radius: 30px;
+    font-weight: bold;
+    border: none;
+    color: #121825;
+}
+
+.rule{
+    margin: 15px 0px;
+}
+
+iframe{
+    width: 100%;
+}
+
+li{
+    font-size: 30px;
+    line-height: 2em;
+}
+
+.about--us-title-title{
+    text-align: center;
+}
+
+.cineList{
+    margin: 10px 20px;
+}
+
+.cineList img {
+    height: 100%;
+}
+
+.cineList div{
+    margin: 5px;
+}
+
+.cineCard{
+    width: 300px;
+    height: 100%;
+}
+
+.cineInfor li{
+    font-size: 16px;
+}
+
+.text--content{
+    margin: 5px 0px;
+}
+
+.text--content strong{
+    font-size: 18px;
+}
+
+.text--content ul li{
+    margin: 5px 0px;
+    padding-left: 0px;
+}
+
+.text--content ul{
+    margin-bottom: 20px;
+}
+
+.cineAbout{
+    padding-left: 0;
+}
+
+.container{
+    margin: 10px auto;
+}
+
+.block-theater {
+    text-align: center;
+    border-radius: 10px;
+    background-color: #72cde2;
+    box-shadow: 0 3px 10px rgba(255, 255, 255, 0.7);
+    color: #252525;
+    padding: 40px 20px;
+    font-weight: 600;
+}
+.members{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 5fr 8fr;
+    margin-top:  20px;
+    margin-bottom: 20px;
+    border-top: #FFEBEB solid 2px;
+    border-bottom: #FFEBEB solid 2px; 
+}
+.tabs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    border-right: #FFEBEB solid 1px;
+    border-radius: 10px;
+}
+.tabs h5{
+    display: grid;
+    place-items: left;
+    font-size: 1.2em;
+    font-weight: 600;
+    cursor: pointer;
+    height: 33.33%;
+    padding: 20px;
+    margin: 0;
+}
+.tab-content{
+    padding: 1em 1.5em;
+}
+.tab-content ul{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: left;
+    margin: 10px;
+    padding: 0;
+    height: 100%;
+}
+.tab-content ul li{
+    margin: 15px 0;
+    list-style-type: none;
+    letter-spacing: 1.5px;
+    font-weight: 0;
+    font-size: 20px;
+}
+.tab-content ul li a{
+    color: #F6BA6F;
+    text-decoration: none;
+}
+.tab-content div{
+    display: none;
+}
+.tab-content .active{
+    display: block;
+    height: 100%;
+}
+.tabs .active{
+    height: 100%;
+    border-left: #FFEBEB 1px solid;
+    background-color: #F6BA6F;
+    color: #2A2F4F;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+p{
+    color: #fff;
+    line-height: 2em;
+    font-size: 20px;
+}

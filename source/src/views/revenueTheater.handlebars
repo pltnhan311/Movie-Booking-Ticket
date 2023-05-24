@@ -1,0 +1,158 @@
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<div class="h-screen flex-grow-1 overflow-y-lg-auto">
+<!-- Main -->
+  <!-- Card stats -->
+  <div class='row g-6 mb-6' style="margin: 40px;">
+    <div class='col-xl-6 col-sm-6 col-12'>
+      <div class='card shadow border-0'>
+        <div class='card-body'>
+          <div class='row'>
+            <div class='col'>
+              <span
+                class='h6 font-semibold text-muted text-sm d-block mb-2'
+              >TỔNG DOANH THU</span>
+              <span class='h3 font-bold mb-0'>{{revenue}}</span>
+            </div>
+            <div class='col-auto'>
+              <div
+                class='icon icon-shape bg-tertiary text-white text-lg rounded-circle'
+              >
+                <i class='bi bi-credit-card'></i>
+              </div>
+            </div>
+          </div>
+          <div class='mt-2 mb-0 text-sm'>
+            <span class='text-nowrap text-sm text-muted'>Trong năm 2023</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='col-xl-6 col-sm-6 col-12'>
+      <div class='card shadow border-0'>
+        <div class='card-body'>
+          <div class='row'>
+            <div class='col'>
+              <span class='h6 font-semibold text-muted text-sm d-block mb-2'>TỔNG SỐ VÉ ĐƯỢC ĐẶT</span>
+              <span class='h3 font-bold mb-0'>{{count}}</span>
+            </div>
+            <div class='col-auto'>
+              <div
+                class='icon icon-shape bg-warning text-white text-lg rounded-circle'
+              >
+                <i class='bi bi-ticket'></i>
+              </div>
+            </div>
+          </div>
+          <div class='mt-2 mb-0 text-sm'>
+            <span class='text-nowrap text-sm text-muted'>Trong năm 2023</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='col-xl-6 col-sm-6 col-12'>
+      <div class='card shadow border-0'>
+        <div class='card-body'>
+          <div class='row'>
+            <div class='col'>
+              <span
+                class='h6 font-semibold text-muted text-sm d-block mb-2'
+              >RẠP CÓ DOANH THU CAO NHẤT</span>
+              <span class='h4 font-bold mb-0'>{{maxKeyT}}</span>
+            </div>
+              <div class='col-auto'>
+                <div
+                  class='icon icon-shape bg-success text-white text-lg rounded-circle'
+                >
+                  <i class='bi bi-camera'></i>
+                </div>
+            </div>
+          </div>
+          <div class='mt-2 mb-0 text-sm'>
+            <span class='text-nowrap text-sm text-muted'>{{maxValueT}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='col-xl-6 col-sm-6 col-12'>
+      <div class='card shadow border-0'>
+        <div class='card-body'>
+          <div class='row'>
+            <div class='col'>
+              <span
+                class='h6 font-semibold text-muted text-sm d-block mb-2'
+              >PHIM CÓ DOANH THU CAO NHẤT</span>
+              <span class='h4 font-bold mb-0'>{{maxKey}}</span>
+            </div>
+            <div class='col-auto'>
+                <div
+                  class='icon icon-shape bg-black text-white text-lg rounded-circle'
+                >
+                  <i class='bi bi-film'></i>
+                </div>
+            </div>
+          </div>
+          <div class='mt-2 mb-0 text-sm'>
+            <span class='text-nowrap text-sm text-muted'>{{maxValue}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <input type="hidden" name="keyTheater" id="keyTheater" value="{{keyTheater}}">
+  <input type="hidden" name="valueTheater" id="valueTheater" value="{{valueTheater}}">
+  <h1 style="margin: 40px;">Biểu Đồ Doanh Thu Theo Rạp</h1>
+  <canvas id="revenueChart" style="margin: 40px;"></canvas>
+
+</div>
+<script>
+      function findMax(arr) {
+        let max = Number(arr[0]);
+
+        for (let i = 0; i < arr.length; i++) {
+          if (arr[i] > max) {
+            max = Number(arr[i]);
+          }
+          console.log(max)
+        }
+
+        return parseInt(max);
+      }
+
+    let keyTheater = document.getElementById('keyTheater')
+    let valueTheater = document.getElementById('valueTheater')
+    let valueTheaterArray = []
+    let keyTheaterArray = []
+    let len = (valueTheater.value.split(',')).length
+
+    for(let i = 0; i < len; i++) {
+      valueTheaterArray[i] = valueTheater.value.split(',')[i]
+      keyTheaterArray[i] = keyTheater.value.split(',')[i]
+    }
+
+    document.addEventListener("DOMContentLoaded", function() {
+      var ctx = document.getElementById("revenueChart").getContext("2d");
+      var revenueChart = new Chart(ctx, {
+          type: "bar",
+          data: {
+              labels: keyTheaterArray, // Nhãn trục x
+              datasets: [{
+                  label: "Doanh thu",
+                  data: valueTheaterArray, // Dữ liệu doanh thu
+                  backgroundColor: "rgba(75, 192, 192, 0.2)", // Màu nền
+                  borderColor: "rgba(75, 192, 192, 1)", // Màu viền
+                  borderWidth: 2 // Độ dày viền
+              }]
+          },
+          options: {
+              responsive: true,
+              scales: {
+                  y: {
+                      beginAtZero: true,
+                      max: findMax(valueTheaterArray) + 1500000 // Giá trị lớn nhất trên trục y
+                  }
+              }
+          }
+      });
+  });
+
+</script>

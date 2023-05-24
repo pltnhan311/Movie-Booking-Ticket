@@ -1,0 +1,82 @@
+<div class='h-screen flex-grow-1 overflow-y-lg-auto'>
+  <div class='container'>
+    <div class='form-group text-small'>
+      <small><a href='/admin/promotionManager'>Quay lại</a></small>
+    </div>
+    <h4 class='text-success'>Thêm khuyến mãi mới</h4>
+    <div class='row justify-content-center'>
+      <div class='col-xl-8 col-lg-8 col-md-8 border mt-3 pt-3 rounded'>
+        <form action='/admin/promotionManager/add' method='post' novalidate>
+          <div class='form-group'>
+            <label for='namePromotion'>Tên khuyến mãi</label>
+            <input
+              value='{{namePromotion}}'
+              type='text'
+              id='namePromotion'
+              name='namePromotion'
+              class='form-control'
+              placeholder='Nhập tên khuyến mãi'
+            />
+          </div>
+          <div class='form-group'>
+            <label for='contentPromotion'>Nội dung</label>
+            <input
+              value='{{contentPromotion}}'
+              type='text'
+              id='contentPromotion'
+              name='contentPromotion'
+              class='form-control'
+              placeholder='Nhập nội dung khuyến mãi'
+            />
+          </div>
+          <div class='form-group'>
+            <label for='theaterApply'>Rạp áp dụng</label>
+            <input
+              value='{{theaterApply}}'
+              type='text'
+              id='theaterApply'
+              name='theaterApply'
+              class='form-control'
+              placeholder='Nhập những rạp áp dụng khuyến mãi'
+            />
+          </div>
+           <div class='form-group'>
+            <label for='timePromotion'>Thời gian</label>
+            <input
+              value='{{timePromotion}}'
+              type='text'
+              id='timePromotion'
+              name='timePromotion'
+              class='form-control'
+              placeholder='Nhập thời gian áp dụng khuyến mãi'
+            />
+          </div>
+          <div class='form-group'>
+            <label for='imgPromotion'>Hình ảnh</label>
+            <input
+              value='{{imgPromotion}}'
+              type='text'
+              id='imgPromotion'
+              name='imgPromotion'
+              class='form-control'
+              n
+              placeholder='Nhập link ảnh khuyến mãi'
+            />
+          </div>    
+          <div class='form-group'>
+            {{#if error}}
+              <br />
+              <div class='alert alert-danger alert-dismissible fade show'>
+                {{error}}
+              </div>
+              <br />
+            {{/if}}
+          </div>
+          <div class='form-group'>
+            <button class='btn btn-success mr-2'>Thêm dịch vụ</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

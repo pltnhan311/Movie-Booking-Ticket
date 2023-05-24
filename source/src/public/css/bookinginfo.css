@@ -1,0 +1,21 @@
+
+
+.booking-container{
+  background-image: url('/img/booking_bg.png');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.my-custom-row {
+  justify-content: end;
+}
+
+/* Dashed border */
+hr.dotted {
+  border-top: 3px dashed gray;
+  width: 450px;
+  margin-left: auto;
+  margin-right: 70px;
+}

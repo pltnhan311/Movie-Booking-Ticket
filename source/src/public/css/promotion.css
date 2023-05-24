@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.card-title {
+    font-size: 16px;
+}
+.card-text{
+    font-size: 14px;
+}
+.shareBtn{
+    padding: 6px;
+}
+.card-img-top{
+    border: 1px solid #B4E4FF;
+    border-radius: 10px;
+}
+.card-img-top:hover{
+    transform: scale(1.1);
+}
+.card {
+    background-color: transparent;
+}
+.card-link{
+    color: white;
+    text-decoration: none;
+}
+.card-link:hover{
+    color: #62CDFF;
+}
+
+.cinemaList{
+    background-color: transparent;
+    height: fit-content;
+    border-radius: 15px;
+    background-image: url(../img/locationBG.jpg);
+}
+.cinemaList a{
+    width: 70%;
+    margin: 20px 16%;
+    padding: 20px 10px;
+    height: fit-content;
+    text-align: center;
+    background-color: #40aee1;
+    border-radius: 30px;
+    font-weight: bold;
+    border: none;
+    color: #121825;
+}
+
+.rule{
+    margin: 15px 0px;
+}
+
+iframe{
+    width: 100%;
+}
+
+li{
+    font-size: 20px;
+}
+
+.about--us-title-title{
+    text-align: center;
+}
+
+.cineList{
+    margin: 10px 20px;
+}
+
+.cineList img {
+    height: 100%;
+}
+
+.cineList div{
+    margin: 5px;
+}
+
+.cineCard{
+    width: 300px;
+    height: 100%;
+}
+
+.cineInfor li{
+    font-size: 16px;
+}
+
+.text--content{
+    margin: 5px 0px;
+}
+
+.text--content strong{
+    font-size: 18px;
+}
+
+.text--content ul li{
+    margin: 5px 0px;
+    padding-left: 0px;
+}
+
+.text--content ul{
+    margin-bottom: 20px;
+}
+
+.cineAbout{
+    padding-left: 0;
+}
+
+.container{
+    margin: 10px auto;
+}

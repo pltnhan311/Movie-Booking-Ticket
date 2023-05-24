@@ -1,0 +1,160 @@
+<div class='h-screen flex-grow-1 overflow-y-lg-auto'>
+  <div class='container'>
+    <div class='form-group text-small'>
+      <small><a href='/admin/filmManager'>Quay lại</a></small>
+    </div>
+    <h4 class='text-success'>Thêm phim mới</h4>
+    <div class='row justify-content-center'>
+      <div class='col-xl-8 col-lg-8 col-md-8 border mt-3 pt-3 rounded'>
+        <form action='/admin/filmManager/add' method='post' novalidate>
+          <div class='form-group'>
+            <label for='title'>Tên phim</label>
+            <input
+              value='{{title}}'
+              type='text'
+              id='title'
+              name='title'
+              class='form-control'
+              placeholder='Nhập tên phim'
+            />
+          </div>
+          <div class='form-group'>
+            <label for='genre'>Thể loại</label>
+            {{!-- <input
+              value='{{genre}}'
+              type='text'
+              id='genre'
+              name='genre'
+              class='form-control'
+              placeholder='Nhập thể loại'
+            /> --}}
+            <select name="genre" id="genre" class='form-control'>
+              <option value="Hành động">Hành động</option>
+              <option value="Hài hước">Hài hước</option>
+              <option value="Tình cảm">Tình cảm</option>
+              <option value="Hoạt hình">Hoạt hình</option>
+              <option value="Khoa học viễn tưởng">Khoa học viễn tưởng</option>
+              <option value="Kinh dị">Kinh dị</option>
+              <option value="Phiêu lưu">Phiêu lưu</option>
+              <option value="Chính kịch">Chính kịch</option>
+              <option value="Âm nhạc">Âm nhạc</option>
+            </select>
+          </div>
+          <div class='form-group'>
+            <label for='description'>Mô tả</label>
+            <input
+              value='{{description}}'
+              type='text'
+              id='description'
+              name='description'
+              class='form-control'
+              placeholder='Nhập mô tả phim'
+            />
+          </div>
+          <div class='form-group'>
+            <label for='cast'>Diễn viên</label>
+            <input
+              value='{{cast}}'
+              type='text'
+              id='cast'
+              name='cast'
+              class='form-control'
+              placeholder='Nhập tên diễn viên'
+            />
+          </div>
+          <div class='form-group'>
+            <label for='director'>Đạo diễn</label>
+            <input
+              value='{{director}}'
+              type='text'
+              id='director'
+              name='director'
+              class='form-control'
+              placeholder='Nhập tên đạo diễn'
+            />
+          </div>
+          <div class='form-group'>
+            <label for='releaseDate'>Ngày khởi chiếu</label>
+            <input
+              value='{{releaseDate}}'
+              type='date'
+              id='releaseDate'
+              name='releaseDate'
+              class='form-control'
+              placeholder='Nhập ngày khởi chiếu'
+            />
+          </div>
+          <div class='form-group'>
+            <label for='duration'>Thời lượng</label>
+            <input
+              value='{{duration}}'
+              type='number'
+              id='duration'
+              name='duration'
+              class='form-control'
+              placeholder='Nhập thời lượng phim'
+            />
+          </div>
+          <div class='form-group'>
+            <label for='language'>Ngôn ngữ</label>
+            <input
+              value='{{language}}'
+              type='text'
+              id='language'
+              name='language'
+              class='form-control'
+              placeholder='Nhập ngôn ngữ của phim'
+            />
+          </div>
+          <div class='form-group'>
+            <label for='showing'>Trạng thái</label><br />
+            <input type='radio' name='status' value='Đang chiếu' id='showing'/>
+            <label for='showing'>Đang chiếu</label>
+            <br/>
+            <input
+              type='radio'
+              name='status'
+              value='Sắp chiếu'
+              id='comingsoon'
+            />
+            <label for='comingsoon'>Sắp chiếu</label>
+          </div>
+          <div class='form-group'>
+            <label for='poster'>Poster</label>
+            <input
+              value='{{poster}}'
+              type='text'
+              id='poster'
+              name='poster'
+              class='form-control'
+              placeholder='Nhập link poster phim'
+            />
+          </div>
+          <div class='form-group'>
+            <label for='trailer'>Link Trailer</label>
+            <input
+              value='{{trailer}}'
+              type='text'
+              id='trailer'
+              name='trailer'
+              class='form-control'
+              placeholder='Nhập link trailer phim'
+            />
+          </div>
+          <div class='form-group'>
+            {{#if error}}
+              <br />
+              <div class='alert alert-danger alert-dismissible fade show'>
+                {{error}}
+              </div>
+              <br />
+            {{/if}}
+          </div>
+          <div class='form-group'>
+            <button class='btn btn-success mr-2'>Thêm phim</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,102 @@
+
+<div class="h-screen flex-grow-1 overflow-y-lg-auto">
+    <div class="container">
+                <div class="form-group text-small">
+                    <small><a href="/admin/showtimeManager">Quay lại</a></small>
+                </div>
+                <h4 class="text-success">Sửa suất chiếu</h4>
+        <div class="row justify-content-center">
+            <div class="col-xl-8 col-lg-8 col-md-8 border mt-3 pt-3 rounded">
+                <form action="/admin/showtimeManager/editRoom/{{id}}" method="post" novalidate>
+                    <label for="title">Rạp</label>
+                    <div class="form-group">
+                        <select id="room" name="room" class="form-control">
+                            {{#each rooms}}
+                                <option value="{{this.id}}"
+                                {{#ifeq this.id ../room}}
+                                    selected
+                                {{/ifeq}}
+                                >
+                                {{this.name}}
+
+                                </option>
+                            {{/each}}
+                        </select>
+                    </div>
+                    <label for="title">Loại trình chiếu</label>
+                    <div class="form-group">
+                        <select id="typeMovie" name="typeMovie" class="form-control">
+                            {{#each typeMovies}}
+                                <option value="{{this.id}}"
+                                {{#ifeq this.id ../typeMovie}}
+                                    selected
+                                {{/ifeq}}
+                                >
+                                {{this.name}}
+
+                                </option>
+                            {{/each}}
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="showTime">Thời gian chiếu</label>
+                        <div>
+                            <select name="hour" id="hour" class="form-control" style="width:25%; display: inline-block">
+                                <option value="08" {{#ifeq hourST "08"}} selected {{/ifeq}}>08</option>
+                                <option value="09" {{#ifeq hourST "09"}} selected {{/ifeq}}>09</option>
+                                <option value="10" {{#ifeq hourST "10"}} selected {{/ifeq}}>10</option>
+                                <option value="11" {{#ifeq hourST "11"}} selected {{/ifeq}}>11</option>
+                                <option value="12" {{#ifeq hourST "12"}} selected {{/ifeq}}>12</option>
+                                <option value="13" {{#ifeq hourST "13"}} selected {{/ifeq}}>13</option>
+                                <option value="14" {{#ifeq hourST "14"}} selected {{/ifeq}}>14</option>
+                                <option value="15" {{#ifeq hourST "15"}} selected {{/ifeq}}>15</option>
+                                <option value="16" {{#ifeq hourST "16"}} selected {{/ifeq}}>16</option>
+                                <option value="17" {{#ifeq hourST "17"}} selected {{/ifeq}}>17</option>
+                                <option value="18" {{#ifeq hourST "18"}} selected {{/ifeq}}>18</option>
+                                <option value="19" {{#ifeq hourST "19"}} selected {{/ifeq}}>19</option>
+                                <option value="20" {{#ifeq hourST "20"}} selected {{/ifeq}}>20</option>
+                                <option value="21" {{#ifeq hourST "21"}} selected {{/ifeq}}>21</option>
+                                <option value="22" {{#ifeq hourST "22"}} selected {{/ifeq}}>22</option>
+                            </select>
+                            <select name="minute" id="minute" class="form-control" style="width:25%; display: inline-block">
+                                <option value="00" {{#ifeq minuteST "00"}} selected {{/ifeq}}>00</option>
+                                <option value="05" {{#ifeq minuteST "05"}} selected {{/ifeq}}>05</option>
+                                <option value="10" {{#ifeq minuteST "10"}} selected {{/ifeq}}>10</option>
+                                <option value="15" {{#ifeq minuteST "15"}} selected {{/ifeq}}>15</option>
+                                <option value="20" {{#ifeq minuteST "20"}} selected {{/ifeq}}>20</option>
+                                <option value="25" {{#ifeq minuteST "25"}} selected {{/ifeq}}>25</option>
+                                <option value="30" {{#ifeq minuteST "30"}} selected {{/ifeq}}>30</option>
+                                <option value="35" {{#ifeq minuteST "35"}} selected {{/ifeq}}>35</option>
+                                <option value="40" {{#ifeq minuteST "40"}} selected {{/ifeq}}>40</option>
+                                <option value="45" {{#ifeq minuteST "45"}} selected {{/ifeq}}>45</option>
+                                <option value="50" {{#ifeq minuteST "50"}} selected {{/ifeq}}>50</option>
+                                <option value="55" {{#ifeq minuteST "55"}} selected {{/ifeq}}>55</option>
+                            </select>
+                        </div>
+                    </div>
+
+
+                    <div class="form-group">
+                        {{#if error}}
+                            <br>
+                            <div class="alert alert-danger alert-dismissible fade show">
+                                {{error}}
+                            </div>
+                            <br>
+                        {{/if}}
+                    </div>
+                    <br>
+                    <div>
+                        <div class="form-group" style="float: left">
+                                <a href="/admin/showtimeManager/deleteRoom/{{id}}" class="btn btn-danger mr-2">Xóa</a>
+                        </div>
+                        <div class="form-group" style="float: right">
+                                <button class="btn btn-success mr-2">Lưu</button>
+                        </div>
+                    </div>
+
+                </form>
+                <br>
+            </div>
+        </div>
+    </div>

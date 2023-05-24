@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn-type-film {
+    margin: 15px;
+    font-size: 18px;
+    background: linear-gradient(to right, #11998e, #38ef7d);
+    /* background: linear-gradient(to right, #59c173, #a17fe0, #5d26c1); */
+    box-shadow: 0 0 25px #a17fe0;
+    letter-spacing: 1.2px;
+    font-family: "Segoe UI", sans-serif;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.5s;
+    transition-property: box-shadow;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+.btn-type-film:hover{
+    background: linear-gradient(to right, #07847a, #1ecf62);
+    transition: all 0.5s ease;
+}
+
+.btn-buy-ticket {
+    padding: 10px 80px;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #EB455F;
+}
+
+.btn-buy-ticket:hover {
+    background-color: #fff;
+    color: #EB455F;
+    transition: all 0.5s;
+}
+
+.carousel-item img {
+    border-radius: 16px;
+}
+
+.title-intro {
+    padding-bottom: 40px;
+}
+
+.title-movie {
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.title-movie:hover {
+    color: #c3cc26;
+}
+
+.title-kmai {
+    color: #62CDFF;
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.title-member {
+    color: #62CDFF;
+    font-size: 40px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #121825;
+    padding: 20px;
+    width: fit-content;
+    border-radius: 10px;
+    margin: 0 auto;
+  text-align: center;
+}
+
+.film-item {
+    padding: 0 15px;
+}
+
+.poster-film {
+    height: 75%;
+    cursor: pointer;
+}
+
+.poster-film img {
+    max-height: 340px;
+    transition: transform .4s;
+    margin: 0 auto
+}
+
+.poster-film img:hover {
+    transform: scale(1.1);
+}
+
+.film-section {
+    background: url(../img/bgMovie.jpg) repeat fixed 100% 100%;
+    background-size: cover;
+    margin: 50px 0px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.event-section {
+    background: url(../img/kmai_bg.png) repeat-x;
+    background-size: 100% 100%;
+    padding-bottom: 60px;
+    padding-top: 40px;
+}
+
+.poster-event {
+    width: 100%;
+}
+
+.poster-member {
+    width: 100%
+}
+
+#carousel-dots.carousel-indicators {
+    bottom: -40px;
+}
+  
+#carousel-dots.carousel-indicators button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 0;
+    border: none;
+    background-color: #c1c1c1;
+}
+  
+#carousel-dots.carousel-indicators button.active {
+    background-color: #62CDFF;
+}
+
+.carousel-item {
+    transition: all 0.3s ease-in-out;
+    transition-duration: 1.3s; /* adjust as needed */
+}
+
+.member-section {
+    margin-top: 80px;
+    background: url(../img/blueBGtexture.jpg) fixed repeat 100% 100%;
+    padding: 5px;
+}
+
+.poster-member img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.btn-register {
+    display: block;
+    text-decoration: none;
+    margin: 0 auto;
+    width: 200px;
+    border-radius: 30px;
+    line-height: 28px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+    background-color: #fbf8d4;
+    color: #0f264b;
+    padding: 12px;
+}
+
+.btn-register:hover {
+    background-color: #f9f6ac !important;
+    color: #0f264b !important;
+    transition: all 0.5s;
+}
+
+#bg-member {
+    width: auto;
+    height: auto;
+    display: block; /* Ensures that the image is treated as a block element */
+    margin: 20px auto; /* Centers the image horizontally and adds 40px of margin to the top and bottom */
+}
+  

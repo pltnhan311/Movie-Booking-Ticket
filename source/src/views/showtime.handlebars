@@ -1,0 +1,101 @@
+<link rel='stylesheet' href='/css/cinema.css' />
+<h1 class="about--us-title-title col mg-40-0">LỊCH CHIẾU</h1>
+
+    <div class="container my-4 film-container">
+    <h2 class="text-primary mb-4">Danh sách lịch & suất chiếu</h2>
+
+  <div id="film-carousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      {{#each date}} {{#isModZero @index 6}} {{#ifeq @index 0}}
+      <div class="carousel-item active">
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#film-carousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#film-carousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        {{/ifeq}} {{#ifneq @index 0}}
+        <div class="carousel-item">
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#film-carousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#film-carousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+          {{/ifneq}}
+          <div class="row mg-0-40 g-2">
+            {{/isModZero}}
+            <div class="col-lg-2 col-md-2 col-sm-2 film-item">
+
+              <a class="btn btn-danger mr-2" href="/showtime/{{this}}" >
+                {{this}}
+              </a>
+            </div>
+            {{#isModFive @index 6}}
+          </div>
+        </div>
+        {{/isModFive}} {{/each}}
+      </div>
+    </div>
+  </div>
+  <br>
+
+  <br>
+  <h2 class="text-align-center mb-4">{{dateTime}}</h2>
+  <br>
+
+  {{#each movieArray}}
+    <h3 class="row mg-0-40 g-2 text-warning">
+      {{this}}
+    </h3>
+    {{#each ../showtime}}
+      {{#ifeq ../this this.movie.title}}
+
+        <div class="row g-2" style="margin: 20px 40px 60px 40px;">
+          <div class="col-lg-3 col-md-4 col-sm-4 film-item">
+            <div class="block-theater">
+              {{this.theater.nameCinema}}
+            </div>
+          </div>
+          <div class="col-lg-9 col-md-8 col-sm-8 film-item">
+            {{#each this.showtime}}
+            <a class="col-lg-2 col-md-8 col-sm-8 film-item btn btn-success" style="margin: 30px 10px 0 20px;">
+                {{this.startTime}} - {{this.endTime}}
+            </a>
+            {{/each}}
+          </div>
+        </div>
+      {{/ifeq}}
+    {{/each}}
+  {{/each}}
+  {{!-- {{#each movieArray}}
+      <div>
+        {{this}}
+      </div>
+  {{/each}} --}}
+
+  </div>

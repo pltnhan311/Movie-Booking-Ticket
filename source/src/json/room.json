@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "643bade54cab4c126f64fe9d"
+  },
+  "name": "A1",
+  "numberOfSeat": 140,
+  "type": "2D"
+},{
+  "_id": {
+    "$oid": "643bade54cab4c126f64fe9e"
+  },
+  "name": "A2",
+  "numberOfSeat": 100,
+  "type": "3D"
+},{
+  "_id": {
+    "$oid": "643bade54cab4c126f64fe9f"
+  },
+  "name": "A3",
+  "numberOfSeat": 120,
+  "type": "4DX"
+},{
+  "_id": {
+    "$oid": "643bade54cab4c126f64fea0"
+  },
+  "name": "A4",
+  "numberOfSeat": 140,
+  "type": "2D"
+},{
+  "_id": {
+    "$oid": "643bade54cab4c126f64fea1"
+  },
+  "name": "A5",
+  "numberOfSeat": 110,
+  "type": "3D"
+}]

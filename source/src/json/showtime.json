@@ -1,0 +1,2753 @@
+[{
+  "_id": {
+    "$oid": "64410fbc6caaf7d09a63e776"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361ef"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb0"
+  },
+  "dateTime": "2023-04-21",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9d"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea3"
+      },
+      "startTime": "08:00",
+      "endTime": "9:44",
+      "_id": {
+        "$oid": "64410fd06caaf7d09a63e783"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9e"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "09:30",
+      "endTime": "11:14",
+      "_id": {
+        "$oid": "6441105e7d4a86003b29c503"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T10:11:08.967Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "6441106c7d4a86003b29c511"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f0"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb0"
+  },
+  "dateTime": "2023-04-21",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9f"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea3"
+      },
+      "startTime": "08:30",
+      "endTime": "10:03",
+      "_id": {
+        "$oid": "6441107d7d4a86003b29c522"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fea0"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "10:00",
+      "endTime": "11:33",
+      "_id": {
+        "$oid": "6441108f7d4a86003b29c537"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T10:14:04.012Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "6441109d7d4a86003b29c549"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f1"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb0"
+  },
+  "dateTime": "2023-04-22",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9d"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea3"
+      },
+      "startTime": "08:00",
+      "endTime": "10:12",
+      "_id": {
+        "$oid": "644111509225681348118678"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9e"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "09:00",
+      "endTime": "11:12",
+      "_id": {
+        "$oid": "644111619225681348118691"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T10:14:53.603Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "644110a87d4a86003b29c55b"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f2"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb0"
+  },
+  "dateTime": "2023-04-22",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9f"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea3"
+      },
+      "startTime": "08:30",
+      "endTime": "10:44",
+      "_id": {
+        "$oid": "6441117692256813481186b7"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fea0"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "11:00",
+      "endTime": "13:14",
+      "_id": {
+        "$oid": "6441118192256813481186d4"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T10:15:04.038Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "644111229225681348118651"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f3"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb0"
+  },
+  "dateTime": "2023-04-23",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9d"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea3"
+      },
+      "startTime": "08:00",
+      "endTime": "9:46",
+      "_id": {
+        "$oid": "6441119d9225681348118700"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9e"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "09:20",
+      "endTime": "11:06",
+      "_id": {
+        "$oid": "644111ab9225681348118721"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T10:17:06.019Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "6441113d9225681348118663"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f4"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb0"
+  },
+  "dateTime": "2023-04-23",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9f"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "08:00",
+      "endTime": "9:52",
+      "_id": {
+        "$oid": "644111b79225681348118742"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fea0"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea3"
+      },
+      "startTime": "12:00",
+      "endTime": "13:52",
+      "_id": {
+        "$oid": "644111c59225681348118767"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T10:17:33.795Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "644112359225681348118789"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361ef"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb1"
+  },
+  "dateTime": "2023-04-21",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9d"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea3"
+      },
+      "startTime": "08:00",
+      "endTime": "9:44",
+      "_id": {
+        "$oid": "644112b49225681348118858"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9e"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "09:00",
+      "endTime": "10:44",
+      "_id": {
+        "$oid": "644112bc9225681348118881"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T10:21:41.976Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "6441124192256813481187ab"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f0"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb1"
+  },
+  "dateTime": "2023-04-26",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9f"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "10:00",
+      "endTime": "11:33",
+      "_id": {
+        "$oid": "644112ee92256813481188aa"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fea0"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea5"
+      },
+      "startTime": "12:00",
+      "endTime": "13:33",
+      "_id": {
+        "$oid": "644112f892256813481188d7"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T10:21:53.774Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "6441126192256813481187cd"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f1"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb1"
+  },
+  "dateTime": "2023-04-22",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9d"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea3"
+      },
+      "startTime": "09:15",
+      "endTime": "11:27",
+      "_id": {
+        "$oid": "64411337922568134811891b"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9e"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "10:00",
+      "endTime": "12:12",
+      "_id": {
+        "$oid": "64411342922568134811894c"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T10:22:25.939Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "6441127a92256813481187ef"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f2"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb1"
+  },
+  "dateTime": "2023-04-25",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9f"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea5"
+      },
+      "startTime": "12:00",
+      "endTime": "14:14",
+      "_id": {
+        "$oid": "64411353922568134811897d"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fea1"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea6"
+      },
+      "startTime": "22:00",
+      "endTime": "24:14",
+      "_id": {
+        "$oid": "6441136292256813481189b2"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T10:22:50.906Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "644112939225681348118811"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f3"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb1"
+  },
+  "dateTime": "2023-04-23",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9d"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "15:00",
+      "endTime": "16:46",
+      "_id": {
+        "$oid": "6441137e9225681348118a02"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9e"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea3"
+      },
+      "startTime": "08:00",
+      "endTime": "9:46",
+      "_id": {
+        "$oid": "644113899225681348118a3b"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T10:23:15.933Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "6441129f9225681348118833"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f4"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb1"
+  },
+  "dateTime": "2023-04-24",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9f"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea3"
+      },
+      "startTime": "09:00",
+      "endTime": "10:52",
+      "_id": {
+        "$oid": "644113a89225681348118a74"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fea0"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "11:00",
+      "endTime": "12:52",
+      "_id": {
+        "$oid": "644113b39225681348118ab1"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T10:23:27.621Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "644113d19225681348118aeb"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361ef"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb2"
+  },
+  "dateTime": "2023-04-21",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9d"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea3"
+      },
+      "startTime": "08:00",
+      "endTime": "9:44",
+      "_id": {
+        "$oid": "6441142d9225681348118c4a"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9e"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "10:00",
+      "endTime": "11:44",
+      "_id": {
+        "$oid": "644114369225681348118c8b"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T10:28:33.718Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "644113dc9225681348118b25"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f0"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb2"
+  },
+  "dateTime": "2023-04-22",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9f"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "12:00",
+      "endTime": "13:33",
+      "_id": {
+        "$oid": "644114429225681348118ccc"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fea1"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea7"
+      },
+      "startTime": "17:00",
+      "endTime": "18:33",
+      "_id": {
+        "$oid": "6441144c9225681348118d11"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T10:28:44.708Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "644113ee9225681348118b5f"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f1"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb2"
+  },
+  "dateTime": "2023-04-25",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9d"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "10:00",
+      "endTime": "12:12",
+      "_id": {
+        "$oid": "644114609225681348118d79"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9e"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "12:00",
+      "endTime": "14:12",
+      "_id": {
+        "$oid": "6441146b9225681348118dc2"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T10:29:02.951Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "644113fe9225681348118b99"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f2"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb2"
+  },
+  "dateTime": "2023-04-26",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9f"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea6"
+      },
+      "startTime": "08:00",
+      "endTime": "10:14",
+      "_id": {
+        "$oid": "644114789225681348118e0b"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fea1"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea6"
+      },
+      "startTime": "12:00",
+      "endTime": "14:14",
+      "_id": {
+        "$oid": "644114879225681348118e58"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T10:29:18.129Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "644114109225681348118bd3"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f3"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb2"
+  },
+  "dateTime": "2023-04-23",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9d"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea5"
+      },
+      "startTime": "11:00",
+      "endTime": "12:46",
+      "_id": {
+        "$oid": "644114989225681348118ea5"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9e"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "08:00",
+      "endTime": "9:46",
+      "_id": {
+        "$oid": "644114a09225681348118ef6"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T10:29:36.152Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "644114249225681348118c0d"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361fd"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb2"
+  },
+  "dateTime": "2023-04-27",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9f"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea6"
+      },
+      "startTime": "20:00",
+      "endTime": "22:02",
+      "_id": {
+        "$oid": "644114b09225681348118f47"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fea1"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea7"
+      },
+      "startTime": "22:00",
+      "endTime": "24:02",
+      "_id": {
+        "$oid": "644114ba9225681348118f9c"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T10:29:56.415Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "644114d89225681348118fee"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361ef"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb3"
+  },
+  "dateTime": "2023-04-21",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9d"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea3"
+      },
+      "startTime": "08:00",
+      "endTime": "9:44",
+      "_id": {
+        "$oid": "6441157792256813481191dd"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9e"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea3"
+      },
+      "startTime": "09:00",
+      "endTime": "10:44",
+      "_id": {
+        "$oid": "644115809225681348119236"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T10:32:56.414Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "644114e49225681348119040"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f0"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb3"
+  },
+  "dateTime": "2023-04-24",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9f"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea5"
+      },
+      "startTime": "10:00",
+      "endTime": "11:33",
+      "_id": {
+        "$oid": "6441159792256813481192bc"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fea1"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea7"
+      },
+      "startTime": "22:00",
+      "endTime": "23:33",
+      "_id": {
+        "$oid": "644115a39225681348119319"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T10:33:08.287Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "644115399225681348119092"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f1"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb3"
+  },
+  "dateTime": "2023-04-22",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9d"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea3"
+      },
+      "startTime": "08:00",
+      "endTime": "10:12",
+      "_id": {
+        "$oid": "644115cb92256813481193a5"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9e"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "09:00",
+      "endTime": "11:12",
+      "_id": {
+        "$oid": "644115d49225681348119406"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T10:34:33.882Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "6441154292256813481190e4"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361fc"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb3"
+  },
+  "dateTime": "2023-04-25",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9f"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea5"
+      },
+      "startTime": "10:00",
+      "endTime": "11:52",
+      "_id": {
+        "$oid": "644115e09225681348119467"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fea0"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "12:00",
+      "endTime": "13:52",
+      "_id": {
+        "$oid": "644115ea92256813481194cc"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T10:34:42.747Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "644115599225681348119136"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361fd"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb3"
+  },
+  "dateTime": "2023-04-23",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fea1"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea7"
+      },
+      "startTime": "08:00",
+      "endTime": "10:02",
+      "_id": {
+        "$oid": "644115f59225681348119531"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fea0"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea6"
+      },
+      "startTime": "09:00",
+      "endTime": "11:02",
+      "_id": {
+        "$oid": "64411602922568134811959a"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T10:35:05.959Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "644115689225681348119188"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f2"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb3"
+  },
+  "dateTime": "2023-04-26",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9d"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea3"
+      },
+      "startTime": "08:00",
+      "endTime": "10:14",
+      "_id": {
+        "$oid": "6441162c9225681348119603"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9e"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "09:00",
+      "endTime": "11:14",
+      "_id": {
+        "$oid": "644116389225681348119670"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T10:35:20.595Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "6441164b92256813481196da"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361ef"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb4"
+  },
+  "dateTime": "2023-04-21",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9d"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea3"
+      },
+      "startTime": "08:00",
+      "endTime": "9:44",
+      "_id": {
+        "$oid": "644116ab9225681348119959"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9e"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "09:00",
+      "endTime": "10:44",
+      "_id": {
+        "$oid": "644116b692256813481199ca"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T10:39:07.500Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "644116599225681348119744"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f0"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb4"
+  },
+  "dateTime": "2023-04-24",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9f"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea3"
+      },
+      "startTime": "11:00",
+      "endTime": "12:33",
+      "_id": {
+        "$oid": "644116c19225681348119a3b"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fea1"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea6"
+      },
+      "startTime": "12:00",
+      "endTime": "13:33",
+      "_id": {
+        "$oid": "644116ce9225681348119ab0"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T10:39:21.255Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "6441166192256813481197ae"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f1"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb4"
+  },
+  "dateTime": "2023-04-22",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9d"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea3"
+      },
+      "startTime": "08:00",
+      "endTime": "10:12",
+      "_id": {
+        "$oid": "644116e39225681348119b60"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9e"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "09:00",
+      "endTime": "11:12",
+      "_id": {
+        "$oid": "644116eb9225681348119bd9"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T10:39:29.707Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "6441166d9225681348119818"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f2"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb4"
+  },
+  "dateTime": "2023-04-25",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9f"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea5"
+      },
+      "startTime": "08:00",
+      "endTime": "10:14",
+      "_id": {
+        "$oid": "644116f69225681348119c52"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fea1"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea5"
+      },
+      "startTime": "12:00",
+      "endTime": "14:14",
+      "_id": {
+        "$oid": "644117099225681348119ccf"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T10:39:41.447Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "644116949225681348119882"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361fc"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb4"
+  },
+  "dateTime": "2023-04-23",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9d"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea3"
+      },
+      "startTime": "08:00",
+      "endTime": "9:52",
+      "_id": {
+        "$oid": "644117189225681348119d4c"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9e"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "10:00",
+      "endTime": "11:52",
+      "_id": {
+        "$oid": "644117209225681348119dcd"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T10:40:20.975Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "6441169f92256813481198ec"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f3"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb4"
+  },
+  "dateTime": "2023-04-26",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9f"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea5"
+      },
+      "startTime": "12:00",
+      "endTime": "13:46",
+      "_id": {
+        "$oid": "6441172b9225681348119e4e"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fea0"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea5"
+      },
+      "startTime": "13:00",
+      "endTime": "14:46",
+      "_id": {
+        "$oid": "644117389225681348119ed3"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T10:40:31.188Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "6441174e9225681348119f55"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361fc"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb5"
+  },
+  "dateTime": "2023-04-21",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9d"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea3"
+      },
+      "startTime": "08:00",
+      "endTime": "9:52",
+      "_id": {
+        "$oid": "64411873922568134811a2a7"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9e"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "09:00",
+      "endTime": "10:52",
+      "_id": {
+        "$oid": "6441187b922568134811a330"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T10:43:26.145Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "644117579225681348119fd7"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f1"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb5"
+  },
+  "dateTime": "2023-04-24",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9f"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea3"
+      },
+      "startTime": "08:00",
+      "endTime": "10:12",
+      "_id": {
+        "$oid": "64411882922568134811a3b9"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fea0"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "10:00",
+      "endTime": "12:12",
+      "_id": {
+        "$oid": "6441188b922568134811a446"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T10:43:35.175Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "64411761922568134811a059"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f2"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb5"
+  },
+  "dateTime": "2023-04-22",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9d"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea3"
+      },
+      "startTime": "08:00",
+      "endTime": "10:14",
+      "_id": {
+        "$oid": "64411894922568134811a4d3"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9e"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "09:00",
+      "endTime": "11:14",
+      "_id": {
+        "$oid": "644118b0922568134811a564"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T10:43:45.505Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "644117fb922568134811a0db"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f0"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb5"
+  },
+  "dateTime": "2023-04-25",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9f"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea5"
+      },
+      "startTime": "11:00",
+      "endTime": "12:33",
+      "_id": {
+        "$oid": "644118bc922568134811a5f5"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fea0"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea5"
+      },
+      "startTime": "13:00",
+      "endTime": "14:33",
+      "_id": {
+        "$oid": "644118de922568134811a6d4"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T10:46:19.311Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "64411842922568134811a1a0"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361ef"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb5"
+  },
+  "dateTime": "2023-04-23",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9d"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea3"
+      },
+      "startTime": "08:00",
+      "endTime": "9:44",
+      "_id": {
+        "$oid": "644118e6922568134811a769"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9e"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "09:00",
+      "endTime": "10:44",
+      "_id": {
+        "$oid": "644118ee922568134811a802"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T10:47:30.342Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "64411855922568134811a222"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361fd"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb5"
+  },
+  "dateTime": "2023-04-26",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9f"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea3"
+      },
+      "startTime": "10:00",
+      "endTime": "12:02",
+      "_id": {
+        "$oid": "644118f6922568134811a89b"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fea0"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "14:00",
+      "endTime": "16:02",
+      "_id": {
+        "$oid": "644118ff922568134811a938"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T10:47:49.824Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "64411912922568134811a9d2"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361ef"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb6"
+  },
+  "dateTime": "2023-04-21",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9d"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea3"
+      },
+      "startTime": "08:00",
+      "endTime": "9:44",
+      "_id": {
+        "$oid": "6441199b922568134811adc0"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9e"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea3"
+      },
+      "startTime": "09:00",
+      "endTime": "10:44",
+      "_id": {
+        "$oid": "64411a08922568134811ae61"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T10:50:58.685Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "6441191a922568134811aa6c"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f0"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb6"
+  },
+  "dateTime": "2023-04-24",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9f"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "08:00",
+      "endTime": "9:33",
+      "_id": {
+        "$oid": "64411a12922568134811af02"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fea0"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea6"
+      },
+      "startTime": "10:00",
+      "endTime": "11:33",
+      "_id": {
+        "$oid": "64411a1c922568134811afa7"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T10:51:06.921Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "64411924922568134811ab06"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f1"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb6"
+  },
+  "dateTime": "2023-04-22",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9d"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea3"
+      },
+      "startTime": "08:00",
+      "endTime": "10:12",
+      "_id": {
+        "$oid": "64411a2a922568134811b04c"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9e"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "09:00",
+      "endTime": "11:12",
+      "_id": {
+        "$oid": "64411a32922568134811b0f5"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T10:51:16.720Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "64411956922568134811abef"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f2"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb6"
+  },
+  "dateTime": "2023-04-25",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9f"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea3"
+      },
+      "startTime": "08:00",
+      "endTime": "10:14",
+      "_id": {
+        "$oid": "64411a4b922568134811b19e"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fea0"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea5"
+      },
+      "startTime": "11:00",
+      "endTime": "13:14",
+      "_id": {
+        "$oid": "64411a56922568134811b24b"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T10:52:06.185Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "64411969922568134811ac89"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f3"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb6"
+  },
+  "dateTime": "2023-04-23",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9d"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "11:00",
+      "endTime": "12:46",
+      "_id": {
+        "$oid": "64411aab922568134811b2f8"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9e"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "10:00",
+      "endTime": "11:46",
+      "_id": {
+        "$oid": "64411ab4922568134811b3a9"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T10:52:25.073Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "64411978922568134811ad23"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361fd"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb6"
+  },
+  "dateTime": "2023-04-26",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9f"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "12:00",
+      "endTime": "14:02",
+      "_id": {
+        "$oid": "64411abf922568134811b45a"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fea1"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea7"
+      },
+      "startTime": "19:00",
+      "endTime": "21:02",
+      "_id": {
+        "$oid": "64411aca922568134811b50f"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T10:52:40.689Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "64411b1f922568134811b5c1"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361ef"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb7"
+  },
+  "dateTime": "2023-04-21",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9d"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea3"
+      },
+      "startTime": "08:00",
+      "endTime": "9:44",
+      "_id": {
+        "$oid": "64411b94922568134811b9f0"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9e"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "09:00",
+      "endTime": "10:44",
+      "_id": {
+        "$oid": "64411b9c922568134811baa9"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T10:59:43.274Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "64411b2e922568134811b673"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f0"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb7"
+  },
+  "dateTime": "2023-04-24",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9f"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "11:00",
+      "endTime": "12:33",
+      "_id": {
+        "$oid": "64411ba8922568134811bb62"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fea0"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "12:00",
+      "endTime": "13:33",
+      "_id": {
+        "$oid": "64411bb0922568134811bc1f"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T10:59:58.643Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "64411b36922568134811b725"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f1"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb7"
+  },
+  "dateTime": "2023-04-22",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9d"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea3"
+      },
+      "startTime": "08:00",
+      "endTime": "10:12",
+      "_id": {
+        "$oid": "64411bba922568134811bcdc"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9e"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "09:00",
+      "endTime": "11:12",
+      "_id": {
+        "$oid": "64411bc4922568134811bd9d"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T11:00:06.235Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "64411b40922568134811b7d7"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f2"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb7"
+  },
+  "dateTime": "2023-04-25",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9f"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea3"
+      },
+      "startTime": "09:00",
+      "endTime": "11:14",
+      "_id": {
+        "$oid": "64411bd2922568134811bebf"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fea0"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "15:00",
+      "endTime": "17:14",
+      "_id": {
+        "$oid": "64411be0922568134811bf84"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T11:00:16.587Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "64411b79922568134811b889"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f3"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb7"
+  },
+  "dateTime": "2023-04-23",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9d"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea3"
+      },
+      "startTime": "10:00",
+      "endTime": "11:46",
+      "_id": {
+        "$oid": "64411beb922568134811c049"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9e"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "08:00",
+      "endTime": "9:46",
+      "_id": {
+        "$oid": "64411c03922568134811c112"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T11:01:13.163Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "64411b8a922568134811b93b"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f4"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb7"
+  },
+  "dateTime": "2023-04-26",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9f"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "12:00",
+      "endTime": "13:52",
+      "_id": {
+        "$oid": "64411c0d922568134811c1db"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fea0"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea6"
+      },
+      "startTime": "15:00",
+      "endTime": "16:52",
+      "_id": {
+        "$oid": "64411c15922568134811c2a8"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T11:01:30.467Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "64411c29922568134811c372"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361ef"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb8"
+  },
+  "dateTime": "2023-04-21",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9d"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea3"
+      },
+      "startTime": "08:00",
+      "endTime": "9:44",
+      "_id": {
+        "$oid": "64411c9e922568134811c898"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9e"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "09:00",
+      "endTime": "10:44",
+      "_id": {
+        "$oid": "64411ca5922568134811c969"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T11:04:09.361Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "64411c32922568134811c43c"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f0"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb8"
+  },
+  "dateTime": "2023-04-24",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9f"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "10:00",
+      "endTime": "11:33",
+      "_id": {
+        "$oid": "64411caf922568134811ca3a"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fea0"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea5"
+      },
+      "startTime": "11:00",
+      "endTime": "12:33",
+      "_id": {
+        "$oid": "64411cb8922568134811cb0f"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T11:04:18.420Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "64411c3b922568134811c506"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f1"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb8"
+  },
+  "dateTime": "2023-04-22",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9d"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea3"
+      },
+      "startTime": "08:00",
+      "endTime": "10:12",
+      "_id": {
+        "$oid": "64411cc3922568134811cbe4"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9e"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea3"
+      },
+      "startTime": "09:00",
+      "endTime": "11:12",
+      "_id": {
+        "$oid": "64411cde922568134811cd29"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T11:04:27.812Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "64411c45922568134811c5d0"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f2"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb8"
+  },
+  "dateTime": "2023-04-25",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9f"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea3"
+      },
+      "startTime": "08:00",
+      "endTime": "10:14",
+      "_id": {
+        "$oid": "64411ceb922568134811ce02"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fea0"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea6"
+      },
+      "startTime": "12:00",
+      "endTime": "14:14",
+      "_id": {
+        "$oid": "64411cf7922568134811cedf"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T11:04:37.949Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "64411c86922568134811c701"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f4"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb8"
+  },
+  "dateTime": "2023-04-23",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9d"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea3"
+      },
+      "startTime": "08:00",
+      "endTime": "9:52",
+      "_id": {
+        "$oid": "64411d13922568134811d02b"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9e"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "09:00",
+      "endTime": "10:52",
+      "_id": {
+        "$oid": "64411d1f922568134811d10c"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T11:05:42.291Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "64411c8e922568134811c7cb"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361fc"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb8"
+  },
+  "dateTime": "2023-04-26",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9f"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea5"
+      },
+      "startTime": "10:00",
+      "endTime": "11:52",
+      "_id": {
+        "$oid": "64411d4a922568134811d1ed"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fea0"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea6"
+      },
+      "startTime": "12:00",
+      "endTime": "13:52",
+      "_id": {
+        "$oid": "64411d87922568134811d2d2"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T11:05:50.483Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "64411ddb922568134811d3b4"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361ef"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb9"
+  },
+  "dateTime": "2023-04-21",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9d"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea3"
+      },
+      "startTime": "08:00",
+      "endTime": "9:44",
+      "_id": {
+        "$oid": "64411e3b922568134811d976"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9e"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "09:00",
+      "endTime": "10:44",
+      "_id": {
+        "$oid": "64411e45922568134811da5f"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T11:11:23.845Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "64411de6922568134811d496"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f0"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb9"
+  },
+  "dateTime": "2023-04-24",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9f"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea6"
+      },
+      "startTime": "08:00",
+      "endTime": "9:33",
+      "_id": {
+        "$oid": "64411e4d922568134811db48"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fea0"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea7"
+      },
+      "startTime": "12:00",
+      "endTime": "13:33",
+      "_id": {
+        "$oid": "64411e56922568134811dc35"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T11:11:34.918Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "64411df4922568134811d578"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f1"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb9"
+  },
+  "dateTime": "2023-04-22",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9d"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea3"
+      },
+      "startTime": "08:00",
+      "endTime": "10:12",
+      "_id": {
+        "$oid": "64411e66922568134811dd22"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9e"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "09:00",
+      "endTime": "11:12",
+      "_id": {
+        "$oid": "64411e6e922568134811de13"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T11:11:48.180Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "64411e01922568134811d65a"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f2"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb9"
+  },
+  "dateTime": "2023-04-25",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9f"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "10:00",
+      "endTime": "12:14",
+      "_id": {
+        "$oid": "64411e7e922568134811df7d"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fea0"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea6"
+      },
+      "startTime": "13:00",
+      "endTime": "15:14",
+      "_id": {
+        "$oid": "64411e88922568134811e072"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T11:12:01.295Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "64411e20922568134811d7af"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f3"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb9"
+  },
+  "dateTime": "2023-04-23",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9d"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "08:00",
+      "endTime": "9:46",
+      "_id": {
+        "$oid": "64411e94922568134811e167"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9e"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "09:00",
+      "endTime": "10:46",
+      "_id": {
+        "$oid": "64411e9c922568134811e260"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T11:12:32.146Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "64411e31922568134811d891"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361fd"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb9"
+  },
+  "dateTime": "2023-04-26",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9f"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea3"
+      },
+      "startTime": "10:00",
+      "endTime": "12:02",
+      "_id": {
+        "$oid": "64411ea7922568134811e359"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fea1"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea7"
+      },
+      "startTime": "22:00",
+      "endTime": "24:02",
+      "_id": {
+        "$oid": "64411eb2922568134811e456"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T11:12:49.363Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "64413138d2aae891ef1f9af2"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361fc"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb0"
+  },
+  "dateTime": "2023-04-24",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9d"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "08:00",
+      "endTime": "9:52",
+      "_id": {
+        "$oid": "644131a0efd81688958a1d2e"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9e"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea5"
+      },
+      "startTime": "08:00",
+      "endTime": "9:52",
+      "_id": {
+        "$oid": "644131a6efd81688958a1e2f"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T12:34:00.847Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "64413161efd81688958a193b"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361fd"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb0"
+  },
+  "dateTime": "2023-04-25",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9d"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea3"
+      },
+      "startTime": "10:00",
+      "endTime": "12:02",
+      "_id": {
+        "$oid": "644131aeefd81688958a1f30"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9e"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea7"
+      },
+      "startTime": "10:00",
+      "endTime": "12:02",
+      "_id": {
+        "$oid": "644131b5efd81688958a2035"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T12:34:41.770Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "6441318defd81688958a1b37"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361f2"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb0"
+  },
+  "dateTime": "2023-04-26",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9f"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea4"
+      },
+      "startTime": "08:00",
+      "endTime": "10:14",
+      "_id": {
+        "$oid": "644131bcefd81688958a213a"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fea0"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea5"
+      },
+      "startTime": "12:00",
+      "endTime": "14:14",
+      "_id": {
+        "$oid": "644131c5efd81688958a2243"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T12:35:25.042Z"
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "64413196efd81688958a1c31"
+  },
+  "movie": {
+    "$oid": "6440d73a4175d4e06d4361fd"
+  },
+  "theater": {
+    "$oid": "643971e696e5d7162526eeb0"
+  },
+  "dateTime": "2023-04-27",
+  "showtime": [
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fea1"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea5"
+      },
+      "startTime": "09:00",
+      "endTime": "11:02",
+      "_id": {
+        "$oid": "644131ceefd81688958a234c"
+      }
+    },
+    {
+      "room": {
+        "$oid": "643bade54cab4c126f64fe9f"
+      },
+      "typeMovie": {
+        "$oid": "643badee4cab4c126f64fea5"
+      },
+      "startTime": "12:00",
+      "endTime": "14:02",
+      "_id": {
+        "$oid": "644131d7efd81688958a2459"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-20T12:35:34.886Z"
+  },
+  "__v": 2
+}]

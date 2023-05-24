@@ -1,0 +1,70 @@
+<div class='h-screen flex-grow-1 overflow-y-lg-auto'>
+  <div class='container'>
+    <div class='form-group text-small'>
+      <small><a href='/admin/foodManager'>Quay lại</a></small>
+    </div>
+    <h4 class='text-success'>Thêm dịch vụ mới</h4>
+    <div class='row justify-content-center'>
+      <div class='col-xl-8 col-lg-8 col-md-8 border mt-3 pt-3 rounded'>
+        <form action='/admin/foodManager/add' method='post' novalidate>
+          <div class='form-group'>
+            <label for='name'>Tên dịch vụ</label>
+            <input
+              value='{{name}}'
+              type='text'
+              id='name'
+              name='name'
+              class='form-control'
+              placeholder='Nhập tên dịch vụ'
+            />
+          </div>
+          <div class='form-group'>
+            <label for='price'>Giá dịch vụ</label>
+            <input
+              value='{{price}}'
+              type='number'
+              id='price'
+              name='price'
+              class='form-control'
+              placeholder='Nhập giá dịch vụ'
+            />
+          </div>
+          <div class='form-group'>
+            <label for='status'>Trạng thái</label>
+            <input
+              value='{{status}}'
+              type='text'
+              id='status'
+              name='status'
+              class='form-control'
+              placeholder='Nhập trạng thái dịch vụ'
+            />
+          </div>
+          <div class='form-group'>
+            <label for='img'>Hình ảnh</label>
+            <input
+              value='{{img}}'
+              type='text'
+              id='img'
+              name='img'
+              class='form-control'
+              placeholder='Nhập link ảnh dich vụ'
+            />
+          </div>
+          <div class='form-group'>
+            {{#if error}}
+              <br />
+              <div class='alert alert-danger alert-dismissible fade show'>
+                {{error}}
+              </div>
+              <br />
+            {{/if}}
+          </div>
+          <div class='form-group'>
+            <button class='btn btn-success mr-2'>Thêm dịch vụ</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,27 @@
+<link rel='stylesheet' href='/css/bookingProgress.css' />
+<script
+  src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'
+></script>
+
+<h1 class='text-center'>Booking Online</h1>
+<div class='row mg-40'>
+  <div class='col-lg-1 col-md-1'></div>
+  <div class='col-lg-3 col-md-5'>
+    <img src='{{movie.poster}}' alt=' ' />
+  </div>
+  <div class='col-lg-6 col-md-5'>
+    <h4>{{movie.title}}</h4>
+    <p
+      style='opacity: 0.7; font-size: 20px; padding-bottom: 20px'
+    >{{movie.description}}</p>
+    <p class='movie-info'>Thể loại: {{movie.genre}}</p>
+    <p class='movie-info'>Thời lượng: {{movie.duration}} phút</p>
+    <p class='movie-info'>Ngôn ngữ: {{movie.language}}</p>
+    <p class='movie-info'>Rạp chiếu: {{nameCinema}}</p>
+    <p class='movie-info'>Suất chiếu: {{showTime}}</p>
+    <p class='movie-info'>Tên khách hàng: {{user.name}}</p>
+  </div>
+
+  <div class='col-lg-1 col-md-1'></div>
+</div>
+{{! End Chi tiết phim }}

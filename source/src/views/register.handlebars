@@ -1,0 +1,64 @@
+
+    <link rel="stylesheet" href="/css/register.css" />
+
+
+    <section class="container">
+      <div class="title">Đăng ký thành viên</div>
+      <div class="form-main">
+        <form action="/register" method="post" autocomplete="off" class="form">
+          <div class="input-box">
+            <label for="inputName">Họ tên</label>
+            <input autofocus type="text" id="inputName" name="name" value="{{name}}" {{#if nameError}} {{/if}} placeholder="Nhập họ và tên.." required />
+          </div>
+
+          <div class="input-box">
+            <label for="inputEmail">Email Address</label>
+            <input type="email" required="required" id='inputEmail' name="email" placeholder='Nhập email..' value="{{email}}" {{#if emailError}} autofocus {{/if}} required />
+          </div>
+
+          <div class="column">
+            <div class="input-box">
+              <label for="inputPhone">Số điện thoại</label>
+              <input type="tel" required id='inputPhone' name="phone" placeholder='Nhập số điện thoại' value="{{phone}}" {{#if Error}} autofocus {{/if}} />
+            </div>
+            <div class="input-box">
+              <label for="birthDate">Ngày sinh</labe>
+              <input type="date" id="birthDate" name="birthDate" value="{{birthDate}}" placeholder="Chọn ngày sinh" {{#if birthDateError}} autofocus {{/if}} required />
+            </div>
+          </div>
+          <div class="form-group">
+            <h3>Gender</h3>
+            <div class="gender-option">
+              <div class="gender">
+                <input type="radio" id="check-male" name="gender" value="Nam" checked />
+                <label for="check-male">Nam</label>
+              </div>
+              <div class="gender">
+                <input type="radio" id="check-female" name="gender" value="Nữ" />
+                <label for="check-female">Nữ</label>
+              </div>
+              <div class="gender">
+                <input type="radio" id="check-other" name="gender" value="Khác"/>
+                <label for="check-other">Khác</label>
+              </div>
+            </div>
+          </div>
+          <div class="column password">
+            <div class="input-box">
+              <label for="inputPassword">Nhập mật khẩu</label>
+              <input type="password" required="required" id='inputPassword' name="password" placeholder='Nhập mật khẩu..' {{#if error}} autofocus {{/if}} >
+            </div>
+            <div class="input-box">
+              <label for="comfirm-password">Xác nhận mật khẩu</label>
+              <input required="required" type='password' id='comfirm-password' name="comfirm-password" placeholder='Xác nhận mật khẩu..'>
+            </div>
+          </div>
+          {{#if error}}
+          <div class="alert alert-danger alert-dismissible fade show">
+          {{error}}
+          </div>
+				{{/if}}
+          <button class="submit">Đăng Ký</button>
+        </form>
+      </div>
+    </section>

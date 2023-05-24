@@ -1,0 +1,62 @@
+
+<div class="h-screen flex-grow-1 overflow-y-lg-auto">
+    <div class="container">
+                <div class="form-group text-small">
+                    <small><a href="/admin/showtimeManager">Quay lại</a></small>
+                </div>
+                <h4 class="text-success">Sửa lịch chiếu</h4>
+        <div class="row justify-content-center">
+            <div class="col-xl-8 col-lg-8 col-md-8 border mt-3 pt-3 rounded">
+                <form action="/admin/showtimeManager/edit/{{showtime.id}}" method="post" novalidate>
+                    <label for="title">Rạp</label>
+                    <div class="form-group">
+                        <select id="theater" name="theater" class="form-control">
+                            {{#each theaters}}
+                                <option value="{{this.id}}"
+                                {{#ifeq this.id ../showtime.theater}}
+                                        selected
+                                {{/ifeq}}
+                                >
+                                {{this.nameCinema}}
+                                </option>
+                            {{/each}}
+                        </select>
+                    </div>
+                    <label for="title">Phim</label>
+                    <div class="form-group">
+                        <select id="movie" name="movie" class="form-control">
+                            {{#each movies}}
+                                {{#ifeq this.status "Đang chiếu"}}
+                                    <option value="{{this.id}}"
+                                    {{#ifeq this.id ../showtime.movie}}
+                                            selected
+                                    {{/ifeq}}
+                                    >
+                                        {{this.title}}
+                                    </option>
+                                {{/ifeq}}
+                            {{/each}}
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="dateTime">Ngày chiếu</label>
+                        <input value="{{showtime.dateTime}}" type="date" id="dateTime" name="dateTime" class="form-control" placeholder="">
+                    </div>
+
+
+                    <div class="form-group">
+                        {{#if error}}
+                            <br>
+                            <div class="alert alert-danger alert-dismissible fade show">
+                                {{error}}
+                            </div>
+                            <br>
+                        {{/if}}
+                    </div>
+                    <div class="form-group">
+                            <button class="btn btn-success mr-2">Lưu</button>
+                        </div>
+                </form>
+            </div>
+        </div>
+    </div>

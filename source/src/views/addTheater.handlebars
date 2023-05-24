@@ -1,0 +1,70 @@
+<div class='h-screen flex-grow-1 overflow-y-lg-auto'>
+  <div class='container'>
+    <div class='form-group text-small'>
+      <small><a href='/admin/theaterManager'>Quay lại</a></small>
+    </div>
+    <h4 class='text-success'>Thêm rạp mới</h4>
+    <div class='row justify-content-center'>
+      <div class='col-xl-8 col-lg-8 col-md-8 border mt-3 pt-3 rounded'>
+        <form action='/admin/theaterManager/add' method='post' novalidate>
+          <div class='form-group'>
+            <label for='nameCinema'>Tên rạp</label>
+            <input
+              value='{{nameCinema}}'
+              type='text'
+              id='nameCinema'
+              name='nameCinema'
+              class='form-control'
+              placeholder='Nhập tên rạp'
+            />
+          </div>
+          <div class='form-group'>
+            <label for='city'>Khu vực</label>
+            <input
+              value='{{city}}'
+              type='text'
+              id='city'
+              name='city'
+              class='form-control'
+              placeholder='Nhập tên khu vực'
+            />
+          </div>
+          <div class='form-group'>
+            <label for='addressCinema'>Địa chỉ rạp</label>
+            <input
+              value='{{addressCinema}}'
+              type='textarea'
+              id='addressCinema'
+              name='addressCinema'
+              class='form-control'
+              placeholder='Nhập địa chỉ rạp'
+            />
+          </div>
+          <div class='form-group'>
+            <label for='phoneCinema'>Hotline</label>
+            <input
+              value='{{phoneCinema}}'
+              type='text'
+              id='phoneCinema'
+              name='phoneCinema'
+              class='form-control'
+              placeholder='Nhập số hotline'
+            />
+          </div>
+          <div class='form-group'>
+            {{#if error}}
+              <br />
+              <div class='alert alert-danger alert-dismissible fade show'>
+                {{error}}
+              </div>
+              <br />
+            {{/if}}
+          </div>
+          <div class='form-group'>
+            <button class='btn btn-success mr-2'>Thêm rạp</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
